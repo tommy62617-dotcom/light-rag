@@ -1,0 +1,602 @@
+2026-09-20 02:33:43,890 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-09-20 02:33:43,895 - lightrag - INFO - Ollama LLM Options: {}
+2026-09-20 02:33:43,895 - lightrag - INFO - Ollama Embedding Options: {}
+2026-09-20 02:33:43,987 - lightrag - INFO - Embedding config: binding=ollama model=None embedding_dim=1024 max_token_size=8192
+2026-09-20 02:33:43,987 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=1024, has_param=True, binding=ollama)
+2026-09-20 02:33:43,987 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-09-20 02:33:43,987 - lightrag - INFO - Reranking is disabled
+2026-09-20 02:33:44,188 - lightrag - INFO - [] Created new empty graph file: C:\Users\USER\OneDrive\桌面\RAG_project-main\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml
+2026-09-20 02:33:44,190 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-09-20 02:33:44,190 - lightrag - INFO -  - extract: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:33:44,190 - lightrag - INFO -  - keyword: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:33:44,190 - lightrag - INFO -  - query: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:33:44,191 - lightrag - INFO -  - vlm: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:33:44,191 - lightrag - INFO - Role LLM Option:
+2026-09-20 02:33:44,191 - lightrag - INFO -  - extract: Ollama {}
+2026-09-20 02:33:44,191 - lightrag - INFO -  - keyword: Ollama {}
+2026-09-20 02:33:44,191 - lightrag - INFO -  - query: Ollama {}
+2026-09-20 02:33:44,191 - lightrag - INFO -  - vlm: Ollama {}
+2026-09-20 02:33:44,253 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-09-20 02:33:44,254 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-09-20 02:33:44,276 - uvicorn.error - INFO - Started server process [23672]
+2026-09-20 02:33:44,276 - uvicorn.error - INFO - Waiting for application startup.
+2026-09-20 02:33:44,277 - lightrag - INFO - [] Process 23672 KV load full_docs with 0 records
+2026-09-20 02:33:44,277 - lightrag - INFO - [] Process 23672 KV load text_chunks with 0 records
+2026-09-20 02:33:44,277 - lightrag - INFO - [] Process 23672 KV load full_entities with 0 records
+2026-09-20 02:33:44,277 - lightrag - INFO - [] Process 23672 KV load full_relations with 0 records
+2026-09-20 02:33:44,278 - lightrag - INFO - [] Process 23672 KV load entity_chunks with 0 records
+2026-09-20 02:33:44,278 - lightrag - INFO - [] Process 23672 KV load relation_chunks with 0 records
+2026-09-20 02:33:44,278 - lightrag - INFO - [] Process 23672 KV load llm_response_cache with 0 records
+2026-09-20 02:33:44,278 - lightrag - INFO - [] Process 23672 doc status load doc_status with 0 records
+2026-09-20 02:33:44,278 - uvicorn.error - INFO - Application startup complete.
+2026-09-20 02:33:44,279 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-09-20 02:34:56,979 - uvicorn.access - INFO - 127.0.0.1:53917 - "GET /webui/assets/index-BHHHJP3f.js HTTP/1.1" 200
+2026-09-20 02:34:57,000 - uvicorn.access - INFO - 127.0.0.1:59400 - "GET /webui/assets/rolldown-runtime-hePW80VL.js HTTP/1.1" 200
+2026-09-20 02:34:57,003 - uvicorn.access - INFO - 127.0.0.1:53902 - "GET /webui/assets/katex-CVDP9Zk8.js HTTP/1.1" 200
+2026-09-20 02:34:57,005 - uvicorn.access - INFO - 127.0.0.1:61296 - "GET /webui/assets/preload-helper-HclGiUj8.js HTTP/1.1" 200
+2026-09-20 02:34:57,006 - uvicorn.access - INFO - 127.0.0.1:53774 - "GET /webui/assets/copy-tex-Be36yNOy.js HTTP/1.1" 200
+2026-09-20 02:34:57,007 - uvicorn.access - INFO - 127.0.0.1:52352 - "GET /webui/assets/copy-tex-Dei-WSYb.css HTTP/1.1" 200
+2026-09-20 02:34:57,031 - uvicorn.access - INFO - 127.0.0.1:52352 - "GET /webui/assets/index-VWiiW3qy.css HTTP/1.1" 200
+2026-09-20 02:34:57,467 - uvicorn.access - INFO - 127.0.0.1:53774 - "GET /ui/customization?locale=zh-TW HTTP/1.1" 200
+2026-09-20 02:34:57,475 - uvicorn.access - INFO - 127.0.0.1:53774 - "GET /auth-status HTTP/1.1" 200
+2026-09-20 02:34:57,478 - uvicorn.access - INFO - 127.0.0.1:53917 - "GET /webui/favicon.png HTTP/1.1" 200
+2026-09-20 02:34:57,782 - uvicorn.access - INFO - 127.0.0.1:53917 - "GET /webui/assets/rehype-katex-DwAOahZ3.js HTTP/1.1" 200
+2026-09-20 02:35:01,107 - uvicorn.access - INFO - 127.0.0.1:53917 - "GET /documents/supported_file_types HTTP/1.1" 200
+2026-09-20 02:35:27,016 - uvicorn.access - INFO - 127.0.0.1:56583 - "POST /documents/upload HTTP/1.1" 200
+2026-09-20 02:35:27,025 - lightrag - INFO - [File Extraction]Deferred 職業安全衛生設施規則 第一章 總則.xlsx to legacy parser
+2026-09-20 02:35:27,026 - lightrag - INFO - Processing 1 document(s)
+2026-09-20 02:35:27,031 - lightrag - INFO - Parsing (native): doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:35:27,047 - lightrag - ERROR - Parse worker failed (native): No module named 'openpyxl'
+2026-09-20 02:35:27,050 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-09-20 02:35:33,374 - uvicorn.access - INFO - 127.0.0.1:56583 - "POST /documents/scan HTTP/1.1" 200
+2026-09-20 02:35:33,381 - lightrag - INFO - Manual retry 27808913: reset 1 FAILED document(s) to PENDING (exclusive phase, no worker running)
+2026-09-20 02:35:33,400 - lightrag - INFO - Resuming previously unfinished file from scan: 職業安全衛生設施規則 第一章 總則.xlsx (doc_id: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc)
+2026-09-20 02:35:33,404 - lightrag - INFO - Processing 1 document(s)
+2026-09-20 02:35:33,407 - lightrag - INFO - Parsing (native): doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:35:33,411 - lightrag - ERROR - Parse worker failed (native): No module named 'openpyxl'
+2026-09-20 02:35:33,414 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-09-20 02:35:33,414 - lightrag - INFO - Scanning process completed: 1 discovered, 0 enqueued, 1 resuming, 0 already processed.
+2026-09-20 02:35:51,965 - uvicorn.access - INFO - 127.0.0.1:58178 - "POST /documents/scan HTTP/1.1" 200
+2026-09-20 02:35:51,971 - lightrag - INFO - Manual retry 37c3172e: reset 1 FAILED document(s) to PENDING (exclusive phase, no worker running)
+2026-09-20 02:35:51,979 - lightrag - INFO - Resuming previously unfinished file from scan: 職業安全衛生設施規則 第一章 總則.xlsx (doc_id: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc)
+2026-09-20 02:35:51,984 - lightrag - INFO - Processing 1 document(s)
+2026-09-20 02:35:51,988 - lightrag - INFO - Parsing (native): doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:35:51,992 - lightrag - ERROR - Parse worker failed (native): No module named 'openpyxl'
+2026-09-20 02:35:51,997 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-09-20 02:35:51,998 - lightrag - INFO - Scanning process completed: 1 discovered, 0 enqueued, 1 resuming, 0 already processed.
+2026-09-20 02:37:00,216 - uvicorn.error - INFO - Shutting down
+2026-09-20 02:37:00,325 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-09-20 02:37:00,326 - lightrag - INFO - Successfully finalized 12 storages
+2026-09-20 02:37:00,326 - uvicorn.error - INFO - Application shutdown complete.
+2026-09-20 02:37:00,326 - uvicorn.error - INFO - Finished server process [23672]
+2026-09-20 02:43:24,950 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-09-20 02:43:24,957 - lightrag - INFO - Ollama LLM Options: {}
+2026-09-20 02:43:24,957 - lightrag - INFO - Ollama Embedding Options: {}
+2026-09-20 02:43:25,058 - lightrag - INFO - Embedding config: binding=ollama model=None embedding_dim=1024 max_token_size=8192
+2026-09-20 02:43:25,058 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=1024, has_param=True, binding=ollama)
+2026-09-20 02:43:25,058 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-09-20 02:43:25,058 - lightrag - INFO - Reranking is disabled
+2026-09-20 02:43:25,304 - lightrag - INFO - [] Created new empty graph file: C:\Users\USER\OneDrive\桌面\RAG_project-main\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml
+2026-09-20 02:43:25,306 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-09-20 02:43:25,306 - lightrag - INFO -  - extract: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:43:25,306 - lightrag - INFO -  - keyword: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:43:25,306 - lightrag - INFO -  - query: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:43:25,306 - lightrag - INFO -  - vlm: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:43:25,306 - lightrag - INFO - Role LLM Option:
+2026-09-20 02:43:25,307 - lightrag - INFO -  - extract: Ollama {}
+2026-09-20 02:43:25,307 - lightrag - INFO -  - keyword: Ollama {}
+2026-09-20 02:43:25,307 - lightrag - INFO -  - query: Ollama {}
+2026-09-20 02:43:25,307 - lightrag - INFO -  - vlm: Ollama {}
+2026-09-20 02:43:25,367 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-09-20 02:43:25,368 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-09-20 02:43:25,402 - uvicorn.error - INFO - Started server process [14580]
+2026-09-20 02:43:25,402 - uvicorn.error - INFO - Waiting for application startup.
+2026-09-20 02:43:25,408 - lightrag - INFO - [] Process 14580 KV load full_docs with 1 records
+2026-09-20 02:43:25,408 - lightrag - INFO - [] Process 14580 KV load text_chunks with 0 records
+2026-09-20 02:43:25,408 - lightrag - INFO - [] Process 14580 KV load full_entities with 0 records
+2026-09-20 02:43:25,409 - lightrag - INFO - [] Process 14580 KV load full_relations with 0 records
+2026-09-20 02:43:25,409 - lightrag - INFO - [] Process 14580 KV load entity_chunks with 0 records
+2026-09-20 02:43:25,409 - lightrag - INFO - [] Process 14580 KV load relation_chunks with 0 records
+2026-09-20 02:43:25,409 - lightrag - INFO - [] Process 14580 KV load llm_response_cache with 0 records
+2026-09-20 02:43:25,415 - lightrag - INFO - [] Process 14580 doc status load doc_status with 1 records
+2026-09-20 02:43:25,415 - uvicorn.error - INFO - Application startup complete.
+2026-09-20 02:43:25,416 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-09-20 02:43:29,553 - uvicorn.access - INFO - 127.0.0.1:55277 - "GET /webui/assets/index-BHHHJP3f.js HTTP/1.1" 304
+2026-09-20 02:43:29,554 - uvicorn.access - INFO - 127.0.0.1:50104 - "GET /webui/assets/rolldown-runtime-hePW80VL.js HTTP/1.1" 304
+2026-09-20 02:43:29,555 - uvicorn.access - INFO - 127.0.0.1:50679 - "GET /webui/assets/katex-CVDP9Zk8.js HTTP/1.1" 304
+2026-09-20 02:43:29,558 - uvicorn.access - INFO - 127.0.0.1:64097 - "GET /webui/assets/index-VWiiW3qy.css HTTP/1.1" 304
+2026-09-20 02:43:29,559 - uvicorn.access - INFO - 127.0.0.1:63853 - "GET /webui/assets/copy-tex-Dei-WSYb.css HTTP/1.1" 304
+2026-09-20 02:43:29,560 - uvicorn.access - INFO - 127.0.0.1:54124 - "GET /webui/assets/preload-helper-HclGiUj8.js HTTP/1.1" 304
+2026-09-20 02:43:29,561 - uvicorn.access - INFO - 127.0.0.1:55277 - "GET /webui/assets/copy-tex-Be36yNOy.js HTTP/1.1" 304
+2026-09-20 02:43:29,799 - uvicorn.access - INFO - 127.0.0.1:54124 - "GET /auth-status HTTP/1.1" 200
+2026-09-20 02:43:29,801 - uvicorn.access - INFO - 127.0.0.1:55277 - "GET /webui/favicon.png HTTP/1.1" 304
+2026-09-20 02:43:29,895 - uvicorn.access - INFO - 127.0.0.1:55277 - "GET /webui/assets/rehype-katex-DwAOahZ3.js HTTP/1.1" 304
+2026-09-20 02:43:33,294 - uvicorn.access - INFO - 127.0.0.1:55277 - "POST /documents/scan HTTP/1.1" 200
+2026-09-20 02:43:33,296 - lightrag - INFO - Manual retry 87241fd1: reset 1 FAILED document(s) to PENDING (exclusive phase, no worker running)
+2026-09-20 02:43:33,302 - lightrag - INFO - Resuming previously unfinished file from scan: 職業安全衛生設施規則 第一章 總則.xlsx (doc_id: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc)
+2026-09-20 02:43:33,303 - lightrag - INFO - Processing 1 document(s)
+2026-09-20 02:43:33,306 - lightrag - INFO - Parsing (native): doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:43:33,319 - lightrag - ERROR - Parse worker failed (native): No module named 'openpyxl'
+2026-09-20 02:43:33,323 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-09-20 02:43:33,323 - lightrag - INFO - Scanning process completed: 1 discovered, 0 enqueued, 1 resuming, 0 already processed.
+2026-09-20 02:44:18,674 - uvicorn.error - INFO - Shutting down
+2026-09-20 02:44:18,783 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-09-20 02:44:18,783 - lightrag - INFO - Successfully finalized 12 storages
+2026-09-20 02:44:18,784 - uvicorn.error - INFO - Application shutdown complete.
+2026-09-20 02:44:18,784 - uvicorn.error - INFO - Finished server process [14580]
+2026-09-20 02:44:37,012 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-09-20 02:44:37,018 - lightrag - INFO - Ollama LLM Options: {}
+2026-09-20 02:44:37,018 - lightrag - INFO - Ollama Embedding Options: {}
+2026-09-20 02:44:37,090 - lightrag - INFO - Embedding config: binding=ollama model=None embedding_dim=1024 max_token_size=8192
+2026-09-20 02:44:37,090 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=1024, has_param=True, binding=ollama)
+2026-09-20 02:44:37,090 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-09-20 02:44:37,090 - lightrag - INFO - Reranking is disabled
+2026-09-20 02:44:37,280 - lightrag - INFO - [] Created new empty graph file: C:\Users\USER\OneDrive\桌面\RAG_project-main\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml
+2026-09-20 02:44:37,282 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-09-20 02:44:37,282 - lightrag - INFO -  - extract: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:44:37,282 - lightrag - INFO -  - keyword: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:44:37,282 - lightrag - INFO -  - query: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:44:37,282 - lightrag - INFO -  - vlm: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 02:44:37,282 - lightrag - INFO - Role LLM Option:
+2026-09-20 02:44:37,282 - lightrag - INFO -  - extract: Ollama {}
+2026-09-20 02:44:37,282 - lightrag - INFO -  - keyword: Ollama {}
+2026-09-20 02:44:37,283 - lightrag - INFO -  - query: Ollama {}
+2026-09-20 02:44:37,283 - lightrag - INFO -  - vlm: Ollama {}
+2026-09-20 02:44:37,343 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-09-20 02:44:37,343 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-09-20 02:44:37,363 - uvicorn.error - INFO - Started server process [19900]
+2026-09-20 02:44:37,363 - uvicorn.error - INFO - Waiting for application startup.
+2026-09-20 02:44:37,364 - lightrag - INFO - [] Process 19900 KV load full_docs with 1 records
+2026-09-20 02:44:37,364 - lightrag - INFO - [] Process 19900 KV load text_chunks with 0 records
+2026-09-20 02:44:37,364 - lightrag - INFO - [] Process 19900 KV load full_entities with 0 records
+2026-09-20 02:44:37,364 - lightrag - INFO - [] Process 19900 KV load full_relations with 0 records
+2026-09-20 02:44:37,365 - lightrag - INFO - [] Process 19900 KV load entity_chunks with 0 records
+2026-09-20 02:44:37,365 - lightrag - INFO - [] Process 19900 KV load relation_chunks with 0 records
+2026-09-20 02:44:37,365 - lightrag - INFO - [] Process 19900 KV load llm_response_cache with 0 records
+2026-09-20 02:44:37,370 - lightrag - INFO - [] Process 19900 doc status load doc_status with 1 records
+2026-09-20 02:44:37,370 - uvicorn.error - INFO - Application startup complete.
+2026-09-20 02:44:37,370 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-09-20 02:44:40,721 - uvicorn.access - INFO - 127.0.0.1:61352 - "POST /documents/scan HTTP/1.1" 200
+2026-09-20 02:44:40,725 - lightrag - INFO - Manual retry a5d2da61: reset 1 FAILED document(s) to PENDING (exclusive phase, no worker running)
+2026-09-20 02:44:40,748 - lightrag - INFO - Resuming previously unfinished file from scan: 職業安全衛生設施規則 第一章 總則.xlsx (doc_id: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc)
+2026-09-20 02:44:40,749 - lightrag - INFO - Processing 1 document(s)
+2026-09-20 02:44:40,751 - lightrag - INFO - Parsing (native): doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:44:40,957 - lightrag - INFO - Extracting stage 1/1: 職業安全衛生設施規則 第一章 總則.xlsx
+2026-09-20 02:44:40,958 - lightrag - INFO - Processing d-id: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:44:40,958 - lightrag - INFO - Chunking F: size=1200, split_only=False, overlap=100, doc_id: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:44:40,987 - lightrag - INFO - extract LLM func: 4 new workers initialized (Timeouts: Func: 240s, Worker: 480s, Health Check: 495s)
+2026-09-20 02:45:38,167 - lightrag - INFO -  == LLM cache == saving: default:extract:0f96c783884868c8bf5ec3c60c354246
+2026-09-20 02:46:38,669 - lightrag - INFO -  == LLM cache == saving: default:extract:f7de3dff16a4237765cae77ade973dd7
+2026-09-20 02:46:38,670 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: Complete delimiter can not be found in extraction result
+2026-09-20 02:46:38,673 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `易燃液體`~`包含`
+2026-09-20 02:46:38,677 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `易燃液體`~`包含`
+2026-09-20 02:46:38,683 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `易燃液體`~`包含`
+2026-09-20 02:46:38,685 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `易燃液體`~`包含`
+2026-09-20 02:46:38,688 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:46:38,689 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:46:38,748 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:46:38,794 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:46:38,812 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:46:38,848 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:46:38,857 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `可燃性气体`~`包含`
+2026-09-20 02:46:38,859 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `可燃性气体`~`包含`
+2026-09-20 02:46:38,860 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `可燃性气体`~`包含`
+2026-09-20 02:46:38,861 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `可燃性气体`~`包含`
+2026-09-20 02:46:38,861 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `乙炔熔接装置`~`包含`
+2026-09-20 02:46:38,861 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `气体集合熔接装置`~`包含`
+2026-09-20 02:46:38,862 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `高压气体`~`包含`
+2026-09-20 02:46:38,862 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `高压气体`~`包含`
+2026-09-20 02:46:38,863 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `高压气体`~`包含`
+2026-09-20 02:46:38,863 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `高压气体`~`包含`
+2026-09-20 02:47:01,596 - lightrag - INFO -  == LLM cache == saving: default:extract:f69b0060db13122676d9043124c6439b
+2026-09-20 02:47:04,860 - lightrag - INFO -  == LLM cache == saving: default:extract:83f883c63fe91c8baf52d61a00fc39cf
+2026-09-20 02:47:04,861 - lightrag - INFO - Chunk 1 of 3 extracted 8 Ent + 0 Rel doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002
+2026-09-20 02:50:39,178 - lightrag - ERROR - extract LLM func: Error in decorated function for task 1967825961040_230497.1211032: 
+2026-09-20 02:50:39,180 - lightrag - ERROR - Failed to extract entities and relationships: C[2/3]: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: 
+2026-09-20 02:50:39,544 - lightrag - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\operate.py", line 4457, in _process_with_semaphore
+    result = await _process_single_content(chunk)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\operate.py", line 4256, in _process_single_content
+    glean_result, timestamp = await use_llm_func_with_cache(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\utils.py", line 5282, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+               ^^^^^^^^^^^^^^^^^^^
+        safe_user_prompt, system_prompt=safe_system_prompt, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\utils.py", line 2393, in wait_func
+    result = await future
+             ^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\utils.py", line 1464, in worker
+    result = await asyncio.wait_for(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+        exec_task, timeout=max_execution_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\api\lightrag_server.py", line 2127, in role_ollama_complete
+    return await _ollama_model_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\_base.py", line 447, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\_base.py", line 396, in __get_result
+    raise self._exception
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\llm\ollama.py", line 439, in _ollama_model_if_cache
+    raise e
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\llm\ollama.py", line 325, in _ollama_model_if_cache
+    response = await ollama_client.chat(model=model, messages=messages, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\ollama\_client.py", line 1020, in chat
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\ollama\_client.py", line 792, in _request
+    return cls(**(await self._request_raw(*args, **kwargs)).json())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\ollama\_client.py", line 732, in _request_raw
+    r = await self._client.request(*args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\operate.py", line 4465, in _process_with_semaphore
+    raise prefixed_exception from e
+httpx.ReadTimeout: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: 
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\pipeline.py", line 5434, in process_single_document
+    chunk_results = await entity_relation_task
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\lightrag.py", line 3272, in _process_extract_entities
+    raise e
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\lightrag.py", line 3251, in _process_extract_entities
+    chunk_results = await extract_entities(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\USER\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\lightrag\operate.py", line 4531, in extract_entities
+    raise prefixed_exception from first_exception
+httpx.ReadTimeout: C[2/3]: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: 
+
+2026-09-20 02:50:39,545 - lightrag - ERROR - Failed to extract document 1/1: 職業安全衛生設施規則 第一章 總則.xlsx
+2026-09-20 02:50:39,564 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-09-20 02:50:39,565 - lightrag - INFO - Scanning process completed: 1 discovered, 0 enqueued, 1 resuming, 0 already processed.
+2026-09-20 02:52:30,691 - uvicorn.access - INFO - 127.0.0.1:52537 - "POST /documents/scan HTTP/1.1" 200
+2026-09-20 02:52:30,696 - lightrag - INFO - Manual retry fc2eb9ad: reset 1 FAILED document(s) to PENDING (exclusive phase, no worker running)
+2026-09-20 02:52:30,707 - lightrag - INFO - Processing 1 document(s)
+2026-09-20 02:52:30,711 - lightrag - INFO - Parsing (native): doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:52:30,723 - lightrag - INFO - Extracting stage 1/1: 職業安全衛生設施規則 第一章 總則.xlsx
+2026-09-20 02:52:30,723 - lightrag - INFO - Processing d-id: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:52:30,723 - lightrag - INFO - [resume] doc-7cf6d0aa7e2caf7c9c163d95ae18bffc: purging 3 chunk(s) and associated KG entries from a previous run before rebuilding under current process_options
+2026-09-20 02:52:30,724 - lightrag - WARNING - [purge] doc-7cf6d0aa7e2caf7c9c163d95ae18bffc: recovery anchor row(s) missing (full_entities, full_relations), but kg_write_state proves the document's own merge never started; cleaning up staged chunks only
+2026-09-20 02:52:30,726 - lightrag - INFO - [purge] doc-7cf6d0aa7e2caf7c9c163d95ae18bffc: 0 entity(ies) to rebuild, 0 to delete
+2026-09-20 02:52:30,728 - lightrag - INFO - [purge] doc-7cf6d0aa7e2caf7c9c163d95ae18bffc: 0 relation(s) to rebuild, 0 to delete
+2026-09-20 02:52:30,732 - lightrag - INFO - [] chunks flush: embedding 3 vectors in 1 batch(es) (batch_num=10)
+2026-09-20 02:52:30,733 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-09-20 02:52:30,746 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-09-20 02:52:54,632 - lightrag - INFO - In memory DB persist to disk
+2026-09-20 02:52:54,639 - lightrag - INFO - [] chunks flush: applied 3 deferred deletes (3 queued, 3 awaiting save)
+2026-09-20 02:52:54,644 - lightrag - INFO - [purge] doc-7cf6d0aa7e2caf7c9c163d95ae18bffc: deleted 3 chunk(s) from storage
+2026-09-20 02:52:54,653 - lightrag - INFO - Chunking F: size=1200, split_only=False, overlap=100, doc_id: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc
+2026-09-20 02:52:54,663 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: Complete delimiter can not be found in extraction result
+2026-09-20 02:52:54,668 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `易燃液體`~`包含`
+2026-09-20 02:52:54,668 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `易燃液體`~`包含`
+2026-09-20 02:52:54,671 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `易燃液體`~`包含`
+2026-09-20 02:52:54,671 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `易燃液體`~`包含`
+2026-09-20 02:52:54,671 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:52:54,672 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:52:54,672 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:52:54,672 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:52:54,673 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:52:54,673 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `氧化性物质`~`包含`
+2026-09-20 02:52:54,673 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `可燃性气体`~`包含`
+2026-09-20 02:52:54,674 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `可燃性气体`~`包含`
+2026-09-20 02:52:54,674 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `可燃性气体`~`包含`
+2026-09-20 02:52:54,675 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `可燃性气体`~`包含`
+2026-09-20 02:52:54,677 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `乙炔熔接装置`~`包含`
+2026-09-20 02:52:54,677 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `气体集合熔接装置`~`包含`
+2026-09-20 02:52:54,677 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `高压气体`~`包含`
+2026-09-20 02:52:54,678 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `高压气体`~`包含`
+2026-09-20 02:52:54,678 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `高压气体`~`包含`
+2026-09-20 02:52:54,678 - lightrag - WARNING - doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001: LLM output format error; found 4/5 fields on RELATION `高压气体`~`包含`
+2026-09-20 02:52:54,701 - lightrag - INFO - Chunk 1 of 3 extracted 8 Ent + 0 Rel doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002
+2026-09-20 02:52:56,583 - lightrag - INFO -  == LLM cache == saving: default:extract:274623fa286e0ca1389b21360720ec76
+2026-09-20 02:52:56,584 - lightrag - INFO - Chunk 2 of 3 extracted 13 Ent + 5 Rel doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000
+2026-09-20 02:53:02,761 - lightrag - INFO -  == LLM cache == saving: default:extract:712e76ead0bfd6843089d2444e82c012
+2026-09-20 02:53:02,763 - lightrag - INFO - Chunk 3 of 3 extracted 7 Ent + 0 Rel doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001
+2026-09-20 02:53:02,764 - lightrag - INFO - Merging stage 1/1: 職業安全衛生設施規則 第一章 總則.xlsx
+2026-09-20 02:53:02,765 - lightrag - INFO - Phase 0: Writing recovery indexes for doc-7cf6d0aa7e2caf7c9c163d95ae18bffc: 28 candidate entities, 5 candidate relations
+2026-09-20 02:53:02,773 - lightrag - INFO - Phase 1: Processing 28 entities from doc-7cf6d0aa7e2caf7c9c163d95ae18bffc (async: 8)
+2026-09-20 02:53:02,788 - lightrag - INFO - Phase 2: Processing 5 relations from doc-7cf6d0aa7e2caf7c9c163d95ae18bffc (async: 8)
+2026-09-20 02:53:02,790 - lightrag - INFO - Upserting relation VDB: `第一章總則->職業安全衛生設施規則`
+2026-09-20 02:53:02,791 - lightrag - INFO - Upserting relation VDB: `第2條->職業安全衛生設施規則`
+2026-09-20 02:53:02,792 - lightrag - INFO - Upserting relation VDB: `第1條->第一章總則`
+2026-09-20 02:53:02,794 - lightrag - INFO - Upserting relation VDB: `第3條->職業安全衛生設施規則`
+2026-09-20 02:53:02,805 - lightrag - INFO - Upserting relation VDB: `第1條->職業安全衛生設施規則`
+2026-09-20 02:53:02,806 - lightrag - INFO - Phase 2 relation processing completed for doc-7cf6d0aa7e2caf7c9c163d95ae18bffc: edges=5 added_entities=0
+2026-09-20 02:53:02,807 - lightrag - INFO - Completed merging: 28 entities, 0 extra entities, 5 relations
+2026-09-20 02:53:02,808 - lightrag - INFO - [] entities flush: embedding 28 vectors in 3 batch(es) (batch_num=10)
+2026-09-20 02:53:02,813 - lightrag - INFO - [] relationships flush: applied 0 deferred deletes (5 queued, 0 awaiting save)
+2026-09-20 02:53:02,814 - lightrag - INFO - [] relationships flush: embedding 5 vectors in 1 batch(es) (batch_num=10)
+2026-09-20 02:53:02,815 - lightrag - INFO - [] chunks flush: embedding 3 vectors in 1 batch(es) (batch_num=10)
+2026-09-20 02:53:02,878 - lightrag - INFO - [] Writing graph with 28 nodes, 5 edges
+2026-09-20 02:53:22,385 - lightrag - INFO - In memory DB persist to disk
+2026-09-20 02:53:22,388 - lightrag - INFO - Completed processing file 1/1: 職業安全衛生設施規則 第一章 總則.xlsx
+2026-09-20 02:53:22,389 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-09-20 02:53:22,389 - lightrag - INFO - Scanning process completed: 0 discovered, 0 enqueued, 0 resuming, 0 already processed.
+2026-09-20 02:58:43,073 - lightrag - INFO - keyword LLM func: 4 new workers initialized (Timeouts: Func: 240s, Worker: 480s, Health Check: 495s)
+2026-09-20 02:58:50,405 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:02922741c036b9a2e3864a56a3998c0c
+2026-09-20 02:58:55,445 - lightrag - INFO - Query nodes: 上傳的檔案內容 (top_k:40, cosine:0.2)
+2026-09-20 02:58:55,450 - lightrag - INFO - Local query: 28 entites, 5 relations
+2026-09-20 02:58:55,451 - lightrag - INFO - Query edges: summary (top_k:40, cosine:0.2)
+2026-09-20 02:58:55,451 - lightrag - INFO - Global query: 5 entites, 5 relations
+2026-09-20 02:58:55,451 - lightrag - INFO - Raw search results: 28 entities, 5 relations, 0 vector chunks
+2026-09-20 02:58:55,453 - lightrag - INFO - After truncation: 28 entities, 5 relations
+2026-09-20 02:58:55,455 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-09-20 02:58:55,455 - lightrag - INFO - Find no additional relations-related chunks from 5 relations
+2026-09-20 02:58:55,455 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-09-20 02:58:55,456 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-09-20 02:58:55,459 - lightrag - INFO - Final context: 28 entities, 5 relations, 3 chunks
+2026-09-20 02:58:55,459 - lightrag - INFO - Final chunks S+F/O: E13/1 E7/2 E8/3
+2026-09-20 02:58:55,459 - lightrag - INFO - query LLM func: 4 new workers initialized (Timeouts: Func: 240s, Worker: 480s, Health Check: 495s)
+2026-09-20 02:59:02,364 - lightrag - INFO -  == LLM cache == saving: hybrid:query:da49b663cd69cd28cfaa857109a60bb4
+2026-09-20 02:59:02,367 - uvicorn.access - INFO - 127.0.0.1:64446 - "POST /query HTTP/1.1" 200
+2026-09-20 03:02:00,348 - lightrag - INFO - Query nodes: 上傳的檔案內容 (top_k:40, cosine:0.2)
+2026-09-20 03:02:00,350 - lightrag - INFO - Local query: 28 entites, 5 relations
+2026-09-20 03:02:00,351 - lightrag - INFO - Query edges: summary (top_k:40, cosine:0.2)
+2026-09-20 03:02:00,351 - lightrag - INFO - Global query: 5 entites, 5 relations
+2026-09-20 03:02:00,351 - lightrag - INFO - Raw search results: 28 entities, 5 relations, 0 vector chunks
+2026-09-20 03:02:00,353 - lightrag - INFO - After truncation: 28 entities, 5 relations
+2026-09-20 03:02:00,354 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-09-20 03:02:00,354 - lightrag - INFO - Find no additional relations-related chunks from 5 relations
+2026-09-20 03:02:00,354 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-09-20 03:02:00,355 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-09-20 03:02:00,357 - lightrag - INFO - Final context: 28 entities, 5 relations, 3 chunks
+2026-09-20 03:02:00,357 - lightrag - INFO - Final chunks S+F/O: E13/1 E7/2 E8/3
+2026-09-20 03:02:00,358 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-09-20 03:02:00,358 - uvicorn.access - INFO - 127.0.0.1:52902 - "POST /query HTTP/1.1" 200
+2026-09-20 03:02:55,858 - uvicorn.error - INFO - Shutting down
+2026-09-20 03:02:55,966 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-09-20 03:02:55,966 - lightrag - INFO - Successfully finalized 12 storages
+2026-09-20 03:02:55,967 - uvicorn.error - INFO - Application shutdown complete.
+2026-09-20 03:02:55,967 - uvicorn.error - INFO - Finished server process [19900]
+2026-09-20 03:03:24,111 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-09-20 03:03:24,116 - lightrag - INFO - Ollama LLM Options: {}
+2026-09-20 03:03:24,116 - lightrag - INFO - Ollama Embedding Options: {}
+2026-09-20 03:03:24,197 - lightrag - INFO - Embedding config: binding=ollama model=None embedding_dim=1024 max_token_size=8192
+2026-09-20 03:03:24,197 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=1024, has_param=True, binding=ollama)
+2026-09-20 03:03:24,197 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-09-20 03:03:24,197 - lightrag - INFO - Reranking is disabled
+2026-09-20 03:03:24,396 - lightrag - INFO - [] Loaded graph from C:\Users\USER\OneDrive\桌面\RAG_project-main\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml with 28 nodes, 5 edges
+2026-09-20 03:03:24,419 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-09-20 03:03:24,420 - lightrag - INFO -  - extract: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 03:03:24,420 - lightrag - INFO -  - keyword: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 03:03:24,420 - lightrag - INFO -  - query: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 03:03:24,420 - lightrag - INFO -  - vlm: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 03:03:24,420 - lightrag - INFO - Role LLM Option:
+2026-09-20 03:03:24,420 - lightrag - INFO -  - extract: Ollama {}
+2026-09-20 03:03:24,420 - lightrag - INFO -  - keyword: Ollama {}
+2026-09-20 03:03:24,420 - lightrag - INFO -  - query: Ollama {}
+2026-09-20 03:03:24,420 - lightrag - INFO -  - vlm: Ollama {}
+2026-09-20 03:03:24,484 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-09-20 03:03:24,484 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-09-20 03:03:24,506 - uvicorn.error - INFO - Started server process [5860]
+2026-09-20 03:03:24,506 - uvicorn.error - INFO - Waiting for application startup.
+2026-09-20 03:03:24,511 - lightrag - INFO - [] Process 5860 KV load full_docs with 1 records
+2026-09-20 03:03:24,517 - lightrag - INFO - [] Process 5860 KV load text_chunks with 3 records
+2026-09-20 03:03:24,521 - lightrag - INFO - [] Process 5860 KV load full_entities with 1 records
+2026-09-20 03:03:24,525 - lightrag - INFO - [] Process 5860 KV load full_relations with 1 records
+2026-09-20 03:03:24,530 - lightrag - INFO - [] Process 5860 KV load entity_chunks with 28 records
+2026-09-20 03:03:24,535 - lightrag - INFO - [] Process 5860 KV load relation_chunks with 5 records
+2026-09-20 03:03:24,540 - lightrag - INFO - [] Process 5860 KV load llm_response_cache with 8 records
+2026-09-20 03:03:24,545 - lightrag - INFO - [] Process 5860 doc status load doc_status with 1 records
+2026-09-20 03:03:24,545 - uvicorn.error - INFO - Application startup complete.
+2026-09-20 03:03:24,546 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-09-20 03:03:29,295 - uvicorn.access - INFO - 127.0.0.1:54287 - "GET /webui/assets/index-BHHHJP3f.js HTTP/1.1" 304
+2026-09-20 03:03:29,295 - uvicorn.access - INFO - 127.0.0.1:56568 - "GET /webui/assets/rolldown-runtime-hePW80VL.js HTTP/1.1" 304
+2026-09-20 03:03:29,299 - uvicorn.access - INFO - 127.0.0.1:57210 - "GET /webui/assets/katex-CVDP9Zk8.js HTTP/1.1" 304
+2026-09-20 03:03:29,300 - uvicorn.access - INFO - 127.0.0.1:64409 - "GET /webui/assets/index-VWiiW3qy.css HTTP/1.1" 304
+2026-09-20 03:03:29,301 - uvicorn.access - INFO - 127.0.0.1:62316 - "GET /webui/assets/preload-helper-HclGiUj8.js HTTP/1.1" 304
+2026-09-20 03:03:29,302 - uvicorn.access - INFO - 127.0.0.1:64856 - "GET /webui/assets/copy-tex-Dei-WSYb.css HTTP/1.1" 304
+2026-09-20 03:03:29,303 - uvicorn.access - INFO - 127.0.0.1:54287 - "GET /webui/assets/copy-tex-Be36yNOy.js HTTP/1.1" 304
+2026-09-20 03:03:29,517 - uvicorn.access - INFO - 127.0.0.1:64856 - "GET /auth-status HTTP/1.1" 200
+2026-09-20 03:03:29,663 - uvicorn.access - INFO - 127.0.0.1:64856 - "GET /webui/assets/rehype-katex-DwAOahZ3.js HTTP/1.1" 304
+2026-09-20 03:03:29,707 - uvicorn.access - INFO - 127.0.0.1:64856 - "GET /webui/favicon.png HTTP/1.1" 304
+2026-09-20 03:03:52,008 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-09-20 03:03:52,328 - lightrag - INFO - Query nodes: 上傳的檔案內容 (top_k:40, cosine:0.2)
+2026-09-20 03:03:52,331 - lightrag - INFO - Local query: 28 entites, 5 relations
+2026-09-20 03:03:52,331 - lightrag - INFO - Query edges: summary (top_k:40, cosine:0.2)
+2026-09-20 03:03:52,331 - lightrag - INFO - Global query: 5 entites, 5 relations
+2026-09-20 03:03:52,332 - lightrag - INFO - Raw search results: 28 entities, 5 relations, 0 vector chunks
+2026-09-20 03:03:52,342 - lightrag - INFO - After truncation: 28 entities, 5 relations
+2026-09-20 03:03:52,343 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-09-20 03:03:52,343 - lightrag - INFO - Find no additional relations-related chunks from 5 relations
+2026-09-20 03:03:52,343 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-09-20 03:03:52,344 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-09-20 03:03:52,347 - lightrag - INFO - Final context: 28 entities, 5 relations, 3 chunks
+2026-09-20 03:03:52,347 - lightrag - INFO - Final chunks S+F/O: E13/1 E7/2 E8/3
+2026-09-20 03:03:52,347 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-09-20 03:03:52,347 - uvicorn.access - INFO - 127.0.0.1:65327 - "POST /query HTTP/1.1" 200
+2026-09-20 03:05:16,878 - uvicorn.error - INFO - Shutting down
+2026-09-20 03:05:16,986 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-09-20 03:05:16,987 - lightrag - INFO - Successfully finalized 12 storages
+2026-09-20 03:05:16,987 - uvicorn.error - INFO - Application shutdown complete.
+2026-09-20 03:05:16,987 - uvicorn.error - INFO - Finished server process [5860]
+2026-09-20 03:05:31,953 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-09-20 03:05:31,958 - lightrag - INFO - Ollama LLM Options: {}
+2026-09-20 03:05:31,958 - lightrag - INFO - Ollama Embedding Options: {}
+2026-09-20 03:05:32,028 - lightrag - INFO - Embedding config: binding=ollama model=None embedding_dim=1024 max_token_size=8192
+2026-09-20 03:05:32,028 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=1024, has_param=True, binding=ollama)
+2026-09-20 03:05:32,028 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-09-20 03:05:32,028 - lightrag - INFO - Reranking is disabled
+2026-09-20 03:05:32,217 - lightrag - INFO - [] Loaded graph from C:\Users\USER\OneDrive\桌面\RAG_project-main\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml with 28 nodes, 5 edges
+2026-09-20 03:05:32,220 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-09-20 03:05:32,220 - lightrag - INFO -  - extract: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 03:05:32,220 - lightrag - INFO -  - keyword: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 03:05:32,220 - lightrag - INFO -  - query: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 03:05:32,220 - lightrag - INFO -  - vlm: ollama/mistral-nemo:latest, host=http://localhost:11434, max_async=4, timeout=240
+2026-09-20 03:05:32,220 - lightrag - INFO - Role LLM Option:
+2026-09-20 03:05:32,220 - lightrag - INFO -  - extract: Ollama {}
+2026-09-20 03:05:32,220 - lightrag - INFO -  - keyword: Ollama {}
+2026-09-20 03:05:32,220 - lightrag - INFO -  - query: Ollama {}
+2026-09-20 03:05:32,221 - lightrag - INFO -  - vlm: Ollama {}
+2026-09-20 03:05:32,275 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-09-20 03:05:32,275 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-09-20 03:05:32,292 - uvicorn.error - INFO - Started server process [30888]
+2026-09-20 03:05:32,292 - uvicorn.error - INFO - Waiting for application startup.
+2026-09-20 03:05:32,293 - lightrag - INFO - [] Process 30888 KV load full_docs with 1 records
+2026-09-20 03:05:32,293 - lightrag - INFO - [] Process 30888 KV load text_chunks with 3 records
+2026-09-20 03:05:32,294 - lightrag - INFO - [] Process 30888 KV load full_entities with 1 records
+2026-09-20 03:05:32,294 - lightrag - INFO - [] Process 30888 KV load full_relations with 1 records
+2026-09-20 03:05:32,295 - lightrag - INFO - [] Process 30888 KV load entity_chunks with 28 records
+2026-09-20 03:05:32,295 - lightrag - INFO - [] Process 30888 KV load relation_chunks with 5 records
+2026-09-20 03:05:32,296 - lightrag - INFO - [] Process 30888 KV load llm_response_cache with 8 records
+2026-09-20 03:05:32,296 - lightrag - INFO - [] Process 30888 doc status load doc_status with 1 records
+2026-09-20 03:05:32,297 - uvicorn.error - INFO - Application startup complete.
+2026-09-20 03:05:32,297 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-09-20 03:05:35,077 - uvicorn.access - INFO - 127.0.0.1:55727 - "GET /auth-status HTTP/1.1" 200
+2026-09-20 03:05:53,026 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-09-20 03:05:53,331 - lightrag - INFO - Query nodes: 上傳的檔案內容 (top_k:40, cosine:0.2)
+2026-09-20 03:05:53,334 - lightrag - INFO - Local query: 28 entites, 5 relations
+2026-09-20 03:05:53,334 - lightrag - INFO - Query edges: summary (top_k:40, cosine:0.2)
+2026-09-20 03:05:53,334 - lightrag - INFO - Global query: 5 entites, 5 relations
+2026-09-20 03:05:53,334 - lightrag - INFO - Raw search results: 28 entities, 5 relations, 0 vector chunks
+2026-09-20 03:05:53,344 - lightrag - INFO - After truncation: 28 entities, 5 relations
+2026-09-20 03:05:53,344 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-09-20 03:05:53,345 - lightrag - INFO - Find no additional relations-related chunks from 5 relations
+2026-09-20 03:05:53,345 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-09-20 03:05:53,346 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-09-20 03:05:53,348 - lightrag - INFO - Final context: 28 entities, 5 relations, 3 chunks
+2026-09-20 03:05:53,348 - lightrag - INFO - Final chunks S+F/O: E13/1 E7/2 E8/3
+2026-09-20 03:05:53,349 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-09-20 03:05:53,349 - uvicorn.access - INFO - 127.0.0.1:63244 - "POST /query HTTP/1.1" 200
+2026-09-20 03:06:34,074 - lightrag - INFO - Query nodes: 上傳的檔案內容 (top_k:40, cosine:0.2)
+2026-09-20 03:06:34,077 - lightrag - INFO - Local query: 28 entites, 5 relations
+2026-09-20 03:06:34,077 - lightrag - INFO - Query edges: summary (top_k:40, cosine:0.2)
+2026-09-20 03:06:34,077 - lightrag - INFO - Global query: 5 entites, 5 relations
+2026-09-20 03:06:34,077 - lightrag - INFO - Raw search results: 28 entities, 5 relations, 0 vector chunks
+2026-09-20 03:06:34,079 - lightrag - INFO - After truncation: 28 entities, 5 relations
+2026-09-20 03:06:34,079 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-09-20 03:06:34,080 - lightrag - INFO - Find no additional relations-related chunks from 5 relations
+2026-09-20 03:06:34,080 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-09-20 03:06:34,081 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-09-20 03:06:34,083 - lightrag - INFO - Final context: 28 entities, 5 relations, 3 chunks
+2026-09-20 03:06:34,083 - lightrag - INFO - Final chunks S+F/O: E13/1 E7/2 E8/3
+2026-09-20 03:06:34,083 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-09-20 03:06:34,083 - uvicorn.access - INFO - 127.0.0.1:63772 - "POST /query HTTP/1.1" 200
+2026-09-20 03:07:28,151 - uvicorn.error - INFO - Shutting down
+2026-09-20 03:07:28,260 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-09-20 03:07:28,261 - lightrag - INFO - Successfully finalized 12 storages
+2026-09-20 03:07:28,261 - uvicorn.error - INFO - Application shutdown complete.
+2026-09-20 03:07:28,261 - uvicorn.error - INFO - Finished server process [30888]

@@ -1,0 +1,1456 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="職業安全衛生設施規則">
+  <data key="d0">職業安全衛生設施規則</data>
+  <data key="d1">concept</data>
+  <data key="d2">Regulations on occupational safety and health facilities.&lt;SEP&gt;Regulations regarding occupational safety and hygiene facilities, established to provide minimum standards for safety and health equipment and measures for employers to use when laborers perform work.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000&lt;SEP&gt;doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="職業安全衛生法">
+  <data key="d0">職業安全衛生法</data>
+  <data key="d1">concept</data>
+  <data key="d2">Occupational Safety and Health Act, the basis for the regulations.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="本法">
+  <data key="d0">本法</data>
+  <data key="d1">concept</data>
+  <data key="d2">Short for Occupational Safety and Health Act.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="雇主">
+  <data key="d0">雇主</data>
+  <data key="d1">person</data>
+  <data key="d2">Employers.&lt;SEP&gt;The person who hires laborers and is responsible for their safety and health.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000&lt;SEP&gt;doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="勞工">
+  <data key="d0">勞工</data>
+  <data key="d1">person</data>
+  <data key="d2">The worker who performs labor for the employer.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="特高壓">
+  <data key="d0">特高壓</data>
+  <data key="d1">concept</data>
+  <data key="d2">Electrical voltage exceeding 22,800 volts.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="高壓">
+  <data key="d0">高壓</data>
+  <data key="d1">concept</data>
+  <data key="d2">Electrical voltage between 600 volts and 22,800 volts.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="低壓">
+  <data key="d0">低壓</data>
+  <data key="d1">concept</data>
+  <data key="d2">Electrical voltage below 600 volts.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="離心機械">
+  <data key="d0">離心機械</data>
+  <data key="d1">concept</data>
+  <data key="d2">Machinery using centrifugal force to separate, dehydrate, and cast materials, such as centrifugal separators, dehydrators, and casting machines.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="離心分離機">
+  <data key="d0">離心分離機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Centrifugal separator.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="離心脫水機">
+  <data key="d0">離心脫水機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Centrifugal dehydrator.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="離心鑄造機">
+  <data key="d0">離心鑄造機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Centrifugal casting machine.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="過負荷防止裝置">
+  <data key="d0">過負荷防止裝置</data>
+  <data key="d1">concept</data>
+  <data key="d2">Device in cranes to prevent loads from exceeding the rated load, which does not include general load indicators.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="起重機">
+  <data key="d0">起重機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Crane.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="車輛機械">
+  <data key="d0">車輛機械</data>
+  <data key="d1">concept</data>
+  <data key="d2">Motorized vehicles that can move in non-specific locations, including construction vehicles and forklifts.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="車輛系營建機械">
+  <data key="d0">車輛系營建機械</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Construction machinery such as bulldozers, graders, excavators, material handling machines, loaders, scrapers, draglines, and drill rigs.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="推土機">
+  <data key="d0">推土機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Excavator.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="平土機">
+  <data key="d0">平土機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Grader.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="鏟土機">
+  <data key="d0">鏟土機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Loader.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="碎物積裝機">
+  <data key="d0">碎物積裝機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Material handling machine.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="刮運機">
+  <data key="d0">刮運機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Scraper.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="鏟刮機">
+  <data key="d0">鏟刮機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Scraper.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="動力鏟">
+  <data key="d0">動力鏟</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Powered shovel.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="牽引鏟">
+  <data key="d0">牽引鏟</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Tractor.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="拖斗挖泥機">
+  <data key="d0">拖斗挖泥機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Dredge.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="挖土斗">
+  <data key="d0">挖土斗</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Excavator bucket.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="斗式掘削機">
+  <data key="d0">斗式掘削機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Excavation machine.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="挖溝機">
+  <data key="d0">挖溝機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Trencher.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="打椿機">
+  <data key="d0">打椿機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Pile driver.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="拔椿機">
+  <data key="d0">拔椿機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Pile remover.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="鑽土機">
+  <data key="d0">鑽土機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Drill rig.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="轉鑽機">
+  <data key="d0">轉鑽機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Rotary drill.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="鑽孔機">
+  <data key="d0">鑽孔機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Drill machine.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="地鑽">
+  <data key="d0">地鑽</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Ground drill.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="夯實機">
+  <data key="d0">夯實機</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Compactor.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="混凝土泵送車">
+  <data key="d0">混凝土泵送車</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Concrete pump truck.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="軌道機械">
+  <data key="d0">軌道機械</data>
+  <data key="d1">concept</data>
+  <data key="d2">Machinery that runs on tracks in the workplace, such as vehicles, power cars, and winches.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="著火性物質">
+  <data key="d0">著火性物質</data>
+  <data key="d1">concept</data>
+  <data key="d2">Flammable substances, including metal lithium, sodium, potassium, phosphorus, sulfur compounds, cellulose nitrate, calcium carbide, aluminum and magnesium powders, and other flammable solids, self-igniting substances, and water-reactive substances.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="易燃液體">
+  <data key="d0">易燃液體</data>
+  <data key="d1">concept</data>
+  <data key="d2">Flammable liquids, including ether, gasoline, acetaldehyde, epoxy propane, carbon disulfide, and other liquids with flash points below -3°C.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="KnowledgeGraphSpecialist">
+  <data key="d0">KnowledgeGraphSpecialist</data>
+  <data key="d1">person</data>
+  <data key="d2">A specialist in the field of Knowledge Graphs, responsible for extracting entities and relationships from text.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="易燃液体">
+  <data key="d0">易燃液体</data>
+  <data key="d1">data</data>
+  <data key="d2">指列出的具有不同闪点的易燃液体，包括乙醚、汽油、乙醛、环氧丙烷、二硫化碳等。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="氧化性物质">
+  <data key="d0">氧化性物质</data>
+  <data key="d1">data</data>
+  <data key="d2">指列出的多种氧化性物质，包括氯酸钾、氯酸钠、氯酸铵等。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="可燃性气体">
+  <data key="d0">可燃性气体</data>
+  <data key="d1">data</data>
+  <data key="d2">指列出的具有可燃性的气体，包括氢、乙炔、乙烯等。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="乙炔熔接装置">
+  <data key="d0">乙炔熔接装置</data>
+  <data key="d1">artifact</data>
+  <data key="d2">指由乙炔发生器、导管、吹管等构成，使用乙炔和氧气进行金属熔接、熔断或加热的设备。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="气体集合熔接装置">
+  <data key="d0">气体集合熔接装置</data>
+  <data key="d1">artifact</data>
+  <data key="d2">指由气体集合装置、安全器、压力调整器、导管、吹管等构成，使用可燃性气体进行金属熔接、熔断或加热的设备。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="高压气体">
+  <data key="d0">高压气体</data>
+  <data key="d1">data</data>
+  <data key="d2">指在常用温度下，表压力达每平方厘米十公斤以上的压缩气体或温度在摄氏三十五度时的压力可达每平方厘米十公斤以上的压缩气体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="乙醚">
+  <data key="d0">乙醚</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="汽油">
+  <data key="d0">汽油</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="乙醛">
+  <data key="d0">乙醛</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="环氧丙烷">
+  <data key="d0">环氧丙烷</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="二硫化碳">
+  <data key="d0">二硫化碳</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="正己烷">
+  <data key="d0">正己烷</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="环氧乙烷">
+  <data key="d0">环氧乙烷</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="丙酮">
+  <data key="d0">丙酮</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="苯">
+  <data key="d0">苯</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="丁酮">
+  <data key="d0">丁酮</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="乙醇">
+  <data key="d0">乙醇</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="甲醇">
+  <data key="d0">甲醇</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="二甲苯">
+  <data key="d0">二甲苯</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="乙酸戊酯">
+  <data key="d0">乙酸戊酯</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="煤油">
+  <data key="d0">煤油</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体，但未在原文中明确列出。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="石脑油">
+  <data key="d0">石脑油</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有特定闪点的易燃液体，但未在原文中明确列出。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="氢">
+  <data key="d0">氢</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有可燃性的气体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="乙炔">
+  <data key="d0">乙炔</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有可燃性的气体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="乙烯">
+  <data key="d0">乙烯</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有可燃性的气体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="甲烷">
+  <data key="d0">甲烷</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有可燃性的气体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="乙烷">
+  <data key="d0">乙烷</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有可燃性的气体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="丙烷">
+  <data key="d0">丙烷</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有可燃性的气体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="丁烷">
+  <data key="d0">丁烷</data>
+  <data key="d1">data</data>
+  <data key="d2">指具有可燃性的气体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="氧气">
+  <data key="d0">氧气</data>
+  <data key="d1">data</data>
+  <data key="d2">指用于乙炔熔接装置中的气体。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="可燃性气体容器">
+  <data key="d0">可燃性气体容器</data>
+  <data key="d1">artifact</data>
+  <data key="d2">指用于气体集合熔接装置中的容器。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="公斤以上之液化氣體">
+  <data key="d0">公斤以上之液化氣體</data>
+  <data key="d1">concept</data>
+  <data key="d2">Regulations concerning liquefied gases with a weight over kilograms.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="液化氰化氫">
+  <data key="d0">液化氰化氫</data>
+  <data key="d1">concept</data>
+  <data key="d2">Liquefied hydrogen cyanide.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="液化溴甲烷">
+  <data key="d0">液化溴甲烷</data>
+  <data key="d1">concept</data>
+  <data key="d2">Liquified bromomethane.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="液化環氧乙烷">
+  <data key="d0">液化環氧乙烷</data>
+  <data key="d1">concept</data>
+  <data key="d2">Liquified ethylene oxide.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="其他經中央主管機關指定之液化氣體">
+  <data key="d0">其他經中央主管機關指定之液化氣體</data>
+  <data key="d1">concept</data>
+  <data key="d2">Other liquefied gases designated by the central authority.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="高壓氣體">
+  <data key="d0">高壓氣體</data>
+  <data key="d1">concept</data>
+  <data key="d2">High-pressure gases.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="高壓鍋爐">
+  <data key="d0">高壓鍋爐</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Boilers with high-pressure steam.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="交通運輸如火車及航空器">
+  <data key="d0">交通運輸如火車及航空器</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Transportation vehicles such as trains and aircraft.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="核子反應裝置">
+  <data key="d0">核子反應裝置</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Nuclear reactors.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="其他經中央主管機關認可不易發生災害之高壓氣體">
+  <data key="d0">其他經中央主管機關認可不易發生災害之高壓氣體</data>
+  <data key="d1">concept</data>
+  <data key="d2">Other high-pressure gases approved by the central authority that are unlikely to cause disasters.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="局限空間">
+  <data key="d0">局限空間</data>
+  <data key="d1">concept</data>
+  <data key="d2">Limited spaces.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="中央主管機關">
+  <data key="d0">中央主管機關</data>
+  <data key="d1">organization</data>
+  <data key="d2">Central authority.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="第一章總則">
+  <data key="d0">第一章總則</data>
+  <data key="d1">concept</data>
+  <data key="d2">General Provisions of the Chapter.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="第19條">
+  <data key="d0">第19條</data>
+  <data key="d1">event</data>
+  <data key="d2">Article 19.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="第19-1條">
+  <data key="d0">第19-1條</data>
+  <data key="d1">event</data>
+  <data key="d2">Article 19-1.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="第20條">
+  <data key="d0">第20條</data>
+  <data key="d1">event</data>
+  <data key="d2">Article 20.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="本規則">
+  <data key="d0">本規則</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d2">Established based on.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="軌道手推車">
+  <data key="d0">軌道手推車</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d2">A part of.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="手推車">
+  <data key="d0">手推車</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d2">Defined by.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="extracts">
+  <data key="d0">extracts</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d2">Identifies and extracts relationships between entities.&lt;SEP&gt;Identifies and extracts entities from the input text.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="使用">
+  <data key="d0">使用</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d2">乙炔熔接装置使用乙炔进行金属熔接、熔断或加热。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="uses">
+  <data key="d0">uses</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d2">Follows the output format template for entity and relationship extraction.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="不适用于">
+  <data key="d0">不适用于</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d2">高压气体不适用于交通运输如火车及航空器的高压气体。&lt;SEP&gt;高压气体不适用于高压锅炉及其管内的高压水蒸气。&lt;SEP&gt;高压气体不适用于核子反应装置有关。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="安全衛生設備及措施">
+  <data key="d0">安全衛生設備及措施</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d2">Employers are responsible for setting up safety and health facilities and measures.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<node id="職業安全衛生法規">
+  <data key="d0">職業安全衛生法規</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d2">Should be based on occupational safety and health regulations.&lt;SEP&gt;Based on.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789845871</data>
+  <data key="d6"></data>
+</node>
+<edge source="職業安全衛生設施規則" target="本規則">
+  <data key="d7">1.0</data>
+  <data key="d8">Established based on.</data>
+  <data key="d9">依</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="職業安全衛生法">
+  <data key="d7">1.0</data>
+  <data key="d8">Based on.</data>
+  <data key="d9">依</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="雇主">
+  <data key="d7">1.0</data>
+  <data key="d8">Employ laborers according to.</data>
+  <data key="d9">使勞工從事工作</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="勞工">
+  <data key="d7">1.0</data>
+  <data key="d8">Laborers subject to.</data>
+  <data key="d9">勞工</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="特高壓">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="高壓">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="低壓">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="離心機械">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="過負荷防止裝置">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="車輛機械">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="軌道機械">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="手推車">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="著火性物質">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="易燃液體">
+  <data key="d7">1.0</data>
+  <data key="d8">Defined by.</data>
+  <data key="d9">所稱</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="第一章總則">
+  <data key="d7">1.0</data>
+  <data key="d8">Title of the chapter.</data>
+  <data key="d9">Chapter Title</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="中央主管機關">
+  <data key="d7">1.0</data>
+  <data key="d8">Regulates the rules.</data>
+  <data key="d9">Regulates</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="雇主" target="安全衛生設備及措施">
+  <data key="d7">1.0</data>
+  <data key="d8">Employers are responsible for setting up safety and health facilities and measures.</data>
+  <data key="d9">Ownership</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="離心機械" target="離心分離機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="離心機械" target="離心脫水機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="離心機械" target="離心鑄造機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="過負荷防止裝置" target="起重機">
+  <data key="d7">1.0</data>
+  <data key="d8">Not including.</data>
+  <data key="d9">不含</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛機械" target="車輛系營建機械">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="推土機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="平土機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="鏟土機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="碎物積裝機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="刮運機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="鏟刮機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="動力鏟">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="牽引鏟">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="拖斗挖泥機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="挖土斗">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="斗式掘削機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="挖溝機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="打椿機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="拔椿機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="鑽土機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="轉鑽機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="鑽孔機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="地鑽">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="夯實機">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="車輛系營建機械" target="混凝土泵送車">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="軌道機械" target="軌道手推車">
+  <data key="d7">1.0</data>
+  <data key="d8">A part of.</data>
+  <data key="d9">屬</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="KnowledgeGraphSpecialist" target="extracts">
+  <data key="d7">2.0</data>
+  <data key="d8">Identifies and extracts relationships between entities.&lt;SEP&gt;Identifies and extracts entities from the input text.</data>
+  <data key="d9">entities,relationships</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="KnowledgeGraphSpecialist" target="uses">
+  <data key="d7">1.0</data>
+  <data key="d8">Follows the output format template for entity and relationship extraction.</data>
+  <data key="d9">output_format_template</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="乙炔熔接装置" target="使用">
+  <data key="d7">1.0</data>
+  <data key="d8">乙炔熔接装置使用乙炔进行金属熔接、熔断或加热。</data>
+  <data key="d9">乙炔</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="乙炔熔接装置" target="不适用于">
+  <data key="d7">3.0</data>
+  <data key="d8">乙炔熔接装置不适用于交通运输如火车及航空器的高压气体。&lt;SEP&gt;乙炔熔接装置不适用于高压锅炉及其管内的高压水蒸气。&lt;SEP&gt;乙炔熔接装置不适用于核子反应装置有关。</data>
+  <data key="d9">交通运输如火车及航空器之高压气体,核子反应装置有关,高压锅炉及其管内高压水蒸气</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="气体集合熔接装置" target="使用">
+  <data key="d7">1.0</data>
+  <data key="d8">气体集合熔接装置使用可燃性气体容器中的气体进行金属熔接、熔断或加热。</data>
+  <data key="d9">可燃性气体容器</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="气体集合熔接装置" target="不适用于">
+  <data key="d7">3.0</data>
+  <data key="d8">气体集合熔接装置不适用于交通运输如火车及航空器的高压气体。&lt;SEP&gt;气体集合熔接装置不适用于高压锅炉及其管内的高压水蒸气。&lt;SEP&gt;气体集合熔接装置不适用于核子反应装置有关。</data>
+  <data key="d9">交通运输如火车及航空器之高压气体,核子反应装置有关,高压锅炉及其管内高压水蒸气</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="高压气体" target="不适用于">
+  <data key="d7">3.0</data>
+  <data key="d8">高压气体不适用于交通运输如火车及航空器的高压气体。&lt;SEP&gt;高压气体不适用于高压锅炉及其管内的高压水蒸气。&lt;SEP&gt;高压气体不适用于核子反应装置有关。</data>
+  <data key="d9">交通运输如火车及航空器之高压气体,核子反应装置有关,高压锅炉及其管内高压水蒸气</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="公斤以上之液化氣體" target="液化氰化氫">
+  <data key="d7">1.0</data>
+  <data key="d8">Includes liquid hydrogen cyanide.</data>
+  <data key="d9">Type of</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="公斤以上之液化氣體" target="液化溴甲烷">
+  <data key="d7">1.0</data>
+  <data key="d8">Includes bromomethane.</data>
+  <data key="d9">Type of</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="公斤以上之液化氣體" target="液化環氧乙烷">
+  <data key="d7">1.0</data>
+  <data key="d8">Includes ethylene oxide.</data>
+  <data key="d9">Type of</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="公斤以上之液化氣體" target="其他經中央主管機關指定之液化氣體">
+  <data key="d7">1.0</data>
+  <data key="d8">Includes other liquefied gases designated by the central authority.</data>
+  <data key="d9">Type of</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="公斤以上之液化氣體" target="高壓氣體">
+  <data key="d7">1.0</data>
+  <data key="d8">Includes high-pressure gases.</data>
+  <data key="d9">Type of</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="高壓氣體" target="高壓鍋爐">
+  <data key="d7">1.0</data>
+  <data key="d8">Not applicable to high-pressure boilers and their internal high-pressure steam.</data>
+  <data key="d9">Not Applicable</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="高壓氣體" target="交通運輸如火車及航空器">
+  <data key="d7">1.0</data>
+  <data key="d8">Not applicable to high-pressure gases in transportation such as trains and aircraft.</data>
+  <data key="d9">Not Applicable</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="高壓氣體" target="核子反應裝置">
+  <data key="d7">1.0</data>
+  <data key="d8">Not applicable to high-pressure gases in nuclear reactors.</data>
+  <data key="d9">Not Applicable</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="高壓氣體" target="其他經中央主管機關認可不易發生災害之高壓氣體">
+  <data key="d7">1.0</data>
+  <data key="d8">Includes other high-pressure gases approved by the central authority that are unlikely to cause disasters.</data>
+  <data key="d9">Type of</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="中央主管機關" target="安全衛生設備及措施">
+  <data key="d7">2.0</data>
+  <data key="d8">Central authority for supervision.&lt;SEP&gt;Based on.</data>
+  <data key="d9">Based On,Organization</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="第一章總則" target="第19條">
+  <data key="d7">1.0</data>
+  <data key="d8">Title of the section.</data>
+  <data key="d9">Section Title</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="第一章總則" target="第19-1條">
+  <data key="d7">1.0</data>
+  <data key="d8">Title of the section.</data>
+  <data key="d9">Section Title</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="第一章總則" target="第20條">
+  <data key="d7">1.0</data>
+  <data key="d8">Title of the section.</data>
+  <data key="d9">Section Title</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="安全衛生設備及措施" target="職業安全衛生法規">
+  <data key="d7">2.0</data>
+  <data key="d8">Should be based on occupational safety and health regulations.&lt;SEP&gt;Based on.</data>
+  <data key="d9">Based On,Regulation</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789845871</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

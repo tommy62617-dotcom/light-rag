@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="職業安全衛生設施規則">
+  <data key="d0">職業安全衛生設施規則</data>
+  <data key="d1">organization</data>
+  <data key="d2">Rules and regulations governing occupational safety and health facilities.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第一章總則">
+  <data key="d0">第一章總則</data>
+  <data key="d1">other</data>
+  <data key="d2">Chapter 1: General Provisions</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第1條">
+  <data key="d0">第1條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 1: This regulation is established under the Occupational Safety and Health Law.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第2條">
+  <data key="d0">第2條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 2: This regulation sets the minimum standards for safety and health facilities for employees.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第3條">
+  <data key="d0">第3條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 3: Definitions for high voltage (above 22,800 volts), medium voltage (between 600 and 22,800 volts), and low voltage (below 600 volts).</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第4條">
+  <data key="d0">第4條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 4: Definition of centrifugal machinery, including centrifugal separators, dewaterers, and casting machines.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第5條">
+  <data key="d0">第5條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 5: Definition of overload prevention devices for cranes.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第6條">
+  <data key="d0">第6條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 6: Definition of vehicles and construction machinery.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第7條">
+  <data key="d0">第7條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 7: Definition of track-guided machinery used for transporting workers or goods.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第8條">
+  <data key="d0">第8條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 8: Definition of hand trucks used for transporting goods.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第9條">
+  <data key="d0">第9條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 9: Definition of track-guided hand trucks used for transporting goods.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第11條">
+  <data key="d0">第11條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 11: List of flammable solids, self-igniting substances, and substances dangerous when wet.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="第13條">
+  <data key="d0">第13條</data>
+  <data key="d1">other</data>
+  <data key="d2">Rule 13: List of flammable liquids.</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="易燃液體">
+  <data key="d0">易燃液體</data>
+  <data key="d1">other</data>
+  <data key="d2">指下列危險物：乙醚、汽油、乙醛、環氧丙烷、二硫化碳及其他閃火點未滿攝氏零下三十度之物質。正己烷、環氧乙烷、丙酮、苯、丁酮及其他閃火點在攝氏零下三十度以上，未滿攝氏零度之物質。乙醇、甲醇、二甲苯、乙酸戊酯及其他閃火點在攝氏零度以上，未滿攝氏三十度之物質。煤油、輕油、松節油、異戊醇、醋酸及其他閃火點在攝氏三十度以上，未滿攝氏六十五度之物質。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="氧化性物質">
+  <data key="d0">氧化性物質</data>
+  <data key="d1">other</data>
+  <data key="d2">指下列危險物：氯酸鉀、氯酸鈉、氯酸銨及其他之氯酸鹽類。過氯酸鉀、過氯酸鈉、過氯酸銨及其他之過氯酸鹽類。過氧化鉀、過氧化鈉、過氧化鋇及其他無機過氧化物。硝酸鉀、硝酸鈉、硝酸銨及其他硝酸鹽類。亞氯酸鈉及其他固體亞氯酸鹽類。次氯酸鈣及其他固體次氯酸鹽類。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="可燃性氣體">
+  <data key="d0">可燃性氣體</data>
+  <data key="d1">other</data>
+  <data key="d2">指下列危險物：氫。乙炔、乙烯。甲烷、乙烷、丙烷、丁烷。其他於一大氣壓下、攝氏十五度時，具有可燃性之氣體。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="乙炔熔接裝置">
+  <data key="d0">乙炔熔接裝置</data>
+  <data key="d1">artifact</data>
+  <data key="d2">由乙炔發生器、導管、吹管等所構成，使用乙炔(溶解性乙炔除外)及氧氣供金屬之熔接、熔斷或加熱之設備。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="氣體集合熔接裝置">
+  <data key="d0">氣體集合熔接裝置</data>
+  <data key="d1">#artifact</data>
+  <data key="d2">由氣體集合裝置、安全器、壓力調整器、導管、吹管等所構成，使用可燃性氣體供金屬之熔接、熔斷或加熱之設備。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="高壓氣體">
+  <data key="d0">高壓氣體</data>
+  <data key="d1">other</data>
+  <data key="d2">指下列各款：在常用溫度下，表壓力(以下簡稱壓力)達每平方公分十公斤以上之壓縮氣體或溫度在攝氏三十五度時之壓力可達每平方公分十公斤以上之壓縮氣體。但不含壓縮乙炔氣。在常用溫度下，壓力達每平方公分二公斤以上之壓縮乙炔氣或溫度在攝氏十五度時之壓力可達每平方公分二公斤以上之壓縮乙炔氣。在常用溫度下，壓力達每平方公分二公斤以上之液化氣體或壓力達每平方公分二公斤時之溫度在攝氏三十五度以下之液化氣體。除前款規定者外，溫度在攝氏三十五度時，壓力超過每平方公分零公斤以上之液化氣體中之液化氰化氫、液化溴甲烷、液化環氧乙烷或其他經中央主管機關指定之液化氣體。</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="Other">
+  <data key="d0">Other</data>
+  <data key="d1">other</data>
+  <data key="d2">指其他未列舉之設備或裝置&lt;SEP&gt;指其他未列舉之物質</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="Liquid Hydrogen Cyanide">
+  <data key="d0">Liquid Hydrogen Cyanide</data>
+  <data key="d1">chemical</data>
+  <data key="d2">A highly pressurized gas consisting of hydrogen cyanide</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="Liquid Bromomethane">
+  <data key="d0">Liquid Bromomethane</data>
+  <data key="d1">chemical</data>
+  <data key="d2">A highly pressurized gas consisting of bromomethane</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="Liquid Epichlorohydrin">
+  <data key="d0">Liquid Epichlorohydrin</data>
+  <data key="d1">chemical</data>
+  <data key="d2">A highly pressurized gas consisting of epichlorohydrin</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="Other High-Pressure Gases">
+  <data key="d0">Other High-Pressure Gases</data>
+  <data key="d1">chemical</data>
+  <data key="d2">Other highly pressurized gases as specified by the central governing authority</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="High-Pressure Boilers">
+  <data key="d0">High-Pressure Boilers</data>
+  <data key="d1">location</data>
+  <data key="d2">Places where high-pressure gases are not applicable, including high-pressure boilers and their internal high-pressure water vapor</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="High-Pressure Gases in Transportation">
+  <data key="d0">High-Pressure Gases in Transportation</data>
+  <data key="d1">location</data>
+  <data key="d2">High-pressure gases not applicable in transportation, such as those in trains and aircraft</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="Nuclear Reactors">
+  <data key="d0">Nuclear Reactors</data>
+  <data key="d1">location</data>
+  <data key="d2">High-pressure gases not applicable to nuclear reactor facilities</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<node id="Central Governing Authority">
+  <data key="d0">Central Governing Authority</data>
+  <data key="d1">organization</data>
+  <data key="d2">The authority responsible for specifying and recognizing high-pressure gases</data>
+  <data key="d3">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002</data>
+  <data key="d4">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d5">1789843982</data>
+  <data key="d6"></data>
+</node>
+<edge source="職業安全衛生設施規則" target="第一章總則">
+  <data key="d7">1.0</data>
+  <data key="d8">Chapter 1 is a part of the Occupational Safety and Health Facilities Regulation.</data>
+  <data key="d9">contains</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789843982</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="第2條">
+  <data key="d7">1.0</data>
+  <data key="d8">Rule 2 sets the minimum standards for the regulation.</data>
+  <data key="d9">sets</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789843982</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="第3條">
+  <data key="d7">1.0</data>
+  <data key="d8">Rule 3 defines high voltage, medium voltage, and low voltage.</data>
+  <data key="d9">is defined by</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789843982</data>
+  <data key="d13"></data>
+</edge>
+<edge source="職業安全衛生設施規則" target="第1條">
+  <data key="d7">1.0</data>
+  <data key="d8">Rule 1 establishes the regulation under the Occupational Safety and Health Law.</data>
+  <data key="d9">is defined by</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789843982</data>
+  <data key="d13"></data>
+</edge>
+<edge source="第一章總則" target="第1條">
+  <data key="d7">1.0</data>
+  <data key="d8">Chapter 1 contains Rule 1.</data>
+  <data key="d9">has</data>
+  <data key="d10">doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000</data>
+  <data key="d11">職業安全衛生設施規則 第一章 總則.xlsx</data>
+  <data key="d12">1789843982</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

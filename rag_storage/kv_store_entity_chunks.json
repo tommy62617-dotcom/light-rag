@@ -1,0 +1,868 @@
+{
+  "職業安全衛生設施規則": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000",
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 2,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "職業安全衛生設施規則"
+  },
+  "職業安全衛生法": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "職業安全衛生法"
+  },
+  "本法": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "本法"
+  },
+  "雇主": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000",
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 2,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "雇主"
+  },
+  "勞工": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "勞工"
+  },
+  "特高壓": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "特高壓"
+  },
+  "高壓": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "高壓"
+  },
+  "低壓": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "低壓"
+  },
+  "離心機械": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "離心機械"
+  },
+  "離心分離機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "離心分離機"
+  },
+  "離心脫水機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "離心脫水機"
+  },
+  "離心鑄造機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "離心鑄造機"
+  },
+  "過負荷防止裝置": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "過負荷防止裝置"
+  },
+  "起重機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "起重機"
+  },
+  "車輛機械": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "車輛機械"
+  },
+  "車輛系營建機械": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "車輛系營建機械"
+  },
+  "推土機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "推土機"
+  },
+  "平土機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "平土機"
+  },
+  "鏟土機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "鏟土機"
+  },
+  "碎物積裝機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "碎物積裝機"
+  },
+  "刮運機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "刮運機"
+  },
+  "鏟刮機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "鏟刮機"
+  },
+  "動力鏟": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "動力鏟"
+  },
+  "牽引鏟": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "牽引鏟"
+  },
+  "拖斗挖泥機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "拖斗挖泥機"
+  },
+  "挖土斗": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "挖土斗"
+  },
+  "斗式掘削機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "斗式掘削機"
+  },
+  "挖溝機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "挖溝機"
+  },
+  "打椿機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "打椿機"
+  },
+  "拔椿機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "拔椿機"
+  },
+  "鑽土機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "鑽土機"
+  },
+  "轉鑽機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "轉鑽機"
+  },
+  "鑽孔機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "鑽孔機"
+  },
+  "地鑽": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "地鑽"
+  },
+  "夯實機": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "夯實機"
+  },
+  "混凝土泵送車": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "混凝土泵送車"
+  },
+  "軌道機械": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "軌道機械"
+  },
+  "著火性物質": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "著火性物質"
+  },
+  "易燃液體": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "易燃液體"
+  },
+  "KnowledgeGraphSpecialist": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "KnowledgeGraphSpecialist"
+  },
+  "易燃液体": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "易燃液体"
+  },
+  "氧化性物质": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "氧化性物质"
+  },
+  "可燃性气体": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "可燃性气体"
+  },
+  "乙炔熔接装置": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "乙炔熔接装置"
+  },
+  "气体集合熔接装置": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "气体集合熔接装置"
+  },
+  "高压气体": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "高压气体"
+  },
+  "乙醚": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "乙醚"
+  },
+  "汽油": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "汽油"
+  },
+  "乙醛": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "乙醛"
+  },
+  "环氧丙烷": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "环氧丙烷"
+  },
+  "二硫化碳": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "二硫化碳"
+  },
+  "正己烷": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "正己烷"
+  },
+  "环氧乙烷": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "环氧乙烷"
+  },
+  "丙酮": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "丙酮"
+  },
+  "苯": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "苯"
+  },
+  "丁酮": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "丁酮"
+  },
+  "乙醇": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "乙醇"
+  },
+  "甲醇": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "甲醇"
+  },
+  "二甲苯": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "二甲苯"
+  },
+  "乙酸戊酯": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "乙酸戊酯"
+  },
+  "煤油": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "煤油"
+  },
+  "石脑油": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "石脑油"
+  },
+  "氢": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "氢"
+  },
+  "乙炔": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "乙炔"
+  },
+  "乙烯": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "乙烯"
+  },
+  "甲烷": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "甲烷"
+  },
+  "乙烷": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "乙烷"
+  },
+  "丙烷": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "丙烷"
+  },
+  "丁烷": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "丁烷"
+  },
+  "氧气": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "氧气"
+  },
+  "可燃性气体容器": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "可燃性气体容器"
+  },
+  "公斤以上之液化氣體": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "公斤以上之液化氣體"
+  },
+  "液化氰化氫": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "液化氰化氫"
+  },
+  "液化溴甲烷": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "液化溴甲烷"
+  },
+  "液化環氧乙烷": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "液化環氧乙烷"
+  },
+  "其他經中央主管機關指定之液化氣體": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "其他經中央主管機關指定之液化氣體"
+  },
+  "高壓氣體": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "高壓氣體"
+  },
+  "高壓鍋爐": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "高壓鍋爐"
+  },
+  "交通運輸如火車及航空器": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "交通運輸如火車及航空器"
+  },
+  "核子反應裝置": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "核子反應裝置"
+  },
+  "其他經中央主管機關認可不易發生災害之高壓氣體": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "其他經中央主管機關認可不易發生災害之高壓氣體"
+  },
+  "局限空間": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "局限空間"
+  },
+  "中央主管機關": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "中央主管機關"
+  },
+  "第一章總則": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "第一章總則"
+  },
+  "第19條": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "第19條"
+  },
+  "第19-1條": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "第19-1條"
+  },
+  "第20條": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "第20條"
+  },
+  "本規則": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "本規則"
+  },
+  "軌道手推車": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "軌道手推車"
+  },
+  "手推車": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "手推車"
+  },
+  "extracts": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "extracts"
+  },
+  "使用": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "使用"
+  },
+  "uses": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "uses"
+  },
+  "不适用于": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "不适用于"
+  },
+  "安全衛生設備及措施": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "安全衛生設備及措施"
+  },
+  "職業安全衛生法規": {
+    "chunk_ids": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ],
+    "count": 1,
+    "create_time": 1789845871,
+    "update_time": 1789845871,
+    "_id": "職業安全衛生法規"
+  }
+}

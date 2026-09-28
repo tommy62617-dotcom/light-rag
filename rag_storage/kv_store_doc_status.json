@@ -1,0 +1,33 @@
+{
+  "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc": {
+    "status": "processed",
+    "content_summary": "==================== Sheet: 工作表1 ====================\n修正日期：\\t民國 115 年 06 月 30 日\t\t\t\n法條名稱\t章節\t條號\t條文內容\n職業安全衛生設施規則\t第一章總則\t第1條\t本規則依職業安全衛生法（以下簡稱本法）第六條第三項規定訂定之。\n職業安全衛生設施規則\t第一章總則\t第2條\t本規則為雇主使勞工從事工作之安全衛生設備及措施之最低標準。\n職業安全衛生設施規則\t第一章總則\t第3條\t本規則所稱特高壓，係指超過二萬二千八百伏特之電壓；高...",
+    "content_length": 2558,
+    "created_at": "2026-09-19T19:18:44.990964+00:00",
+    "updated_at": "2026-09-19T19:24:54.799803+00:00",
+    "file_path": "職業安全衛生設施規則 第一章 總則.xlsx",
+    "track_id": "upload_20260920_031844_3b16d008",
+    "content_hash": "fb0f678439211a9062efa40c41550ad4",
+    "metadata": {
+      "process_options": "F",
+      "source_file": "職業安全衛生設施規則 第一章 總則.xlsx",
+      "parse_start_time": 1789845771,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1789845771,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1789845779,
+      "process_end_time": 1789845894,
+      "chunk_method": "fixed_token",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-000",
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001",
+      "doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-002"
+    ]
+  }
+}
