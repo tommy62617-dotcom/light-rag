@@ -945,3 +945,161 @@ httpx.ReadTimeout: C[1/3]: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001:
 2026-09-21 23:39:35,802 - lightrag - INFO - Final chunks S+F/O: E13/1 E39/2 E21/3
 2026-09-21 23:39:35,809 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
 2026-09-21 23:39:35,811 - uvicorn.access - INFO - 127.0.0.1:49417 - "POST /query HTTP/1.1" 200
+2026-10-05 02:23:23,002 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-10-05 02:23:23,009 - lightrag - INFO - Ollama LLM Options: {}
+2026-10-05 02:23:23,009 - lightrag - INFO - Ollama Embedding Options: {}
+2026-10-05 02:23:23,124 - lightrag - INFO - Embedding config: binding=ollama model=nomic-embed-text:latest embedding_dim=768 max_token_size=8192
+2026-10-05 02:23:23,124 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=ollama)
+2026-10-05 02:23:23,124 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-10-05 02:23:23,124 - lightrag - INFO - Reranking is disabled
+2026-10-05 02:23:26,854 - lightrag - INFO - [] Loaded graph from C:\Users\USER\OneDrive\桌面\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml with 96 nodes, 64 edges
+2026-10-05 02:23:26,879 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-10-05 02:23:26,879 - lightrag - INFO -  - extract: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:23:26,879 - lightrag - INFO -  - keyword: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:23:26,879 - lightrag - INFO -  - query: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:23:26,879 - lightrag - INFO -  - vlm: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:23:26,879 - lightrag - INFO - Role LLM Option:
+2026-10-05 02:23:26,879 - lightrag - INFO -  - extract: Ollama {}
+2026-10-05 02:23:26,879 - lightrag - INFO -  - keyword: Ollama {}
+2026-10-05 02:23:26,880 - lightrag - INFO -  - query: Ollama {}
+2026-10-05 02:23:26,880 - lightrag - INFO -  - vlm: Ollama {}
+2026-10-05 02:23:26,939 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-10-05 02:23:26,939 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-10-05 02:23:26,961 - uvicorn.error - INFO - Started server process [26952]
+2026-10-05 02:23:26,961 - uvicorn.error - INFO - Waiting for application startup.
+2026-10-05 02:23:26,967 - lightrag - INFO - [] Process 26952 KV load full_docs with 1 records
+2026-10-05 02:23:26,972 - lightrag - INFO - [] Process 26952 KV load text_chunks with 3 records
+2026-10-05 02:23:26,977 - lightrag - INFO - [] Process 26952 KV load full_entities with 1 records
+2026-10-05 02:23:26,982 - lightrag - INFO - [] Process 26952 KV load full_relations with 1 records
+2026-10-05 02:23:26,988 - lightrag - INFO - [] Process 26952 KV load entity_chunks with 96 records
+2026-10-05 02:23:26,992 - lightrag - INFO - [] Process 26952 KV load relation_chunks with 64 records
+2026-10-05 02:23:26,999 - lightrag - INFO - [] Process 26952 KV load llm_response_cache with 14 records
+2026-10-05 02:23:27,004 - lightrag - INFO - [] Process 26952 doc status load doc_status with 1 records
+2026-10-05 02:23:27,005 - uvicorn.error - INFO - Application startup complete.
+2026-10-05 02:23:27,005 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-10-05 02:23:42,124 - uvicorn.access - INFO - 127.0.0.1:62082 - "GET / HTTP/1.1" 307
+2026-10-05 02:23:42,241 - uvicorn.access - INFO - 127.0.0.1:62082 - "GET /webui/assets/index-BHHHJP3f.js HTTP/1.1" 200
+2026-10-05 02:23:42,250 - uvicorn.access - INFO - 127.0.0.1:51626 - "GET /webui/assets/rolldown-runtime-hePW80VL.js HTTP/1.1" 200
+2026-10-05 02:23:42,251 - uvicorn.access - INFO - 127.0.0.1:49671 - "GET /webui/assets/katex-CVDP9Zk8.js HTTP/1.1" 200
+2026-10-05 02:23:42,270 - uvicorn.access - INFO - 127.0.0.1:51626 - "GET /webui/assets/copy-tex-Dei-WSYb.css HTTP/1.1" 200
+2026-10-05 02:23:42,288 - uvicorn.access - INFO - 127.0.0.1:51626 - "GET /webui/assets/index-VWiiW3qy.css HTTP/1.1" 200
+2026-10-05 02:23:42,347 - uvicorn.access - INFO - 127.0.0.1:49671 - "GET /webui/assets/preload-helper-HclGiUj8.js HTTP/1.1" 200
+2026-10-05 02:23:42,394 - uvicorn.access - INFO - 127.0.0.1:51626 - "GET /webui/assets/copy-tex-Be36yNOy.js HTTP/1.1" 200
+2026-10-05 02:23:42,871 - uvicorn.access - INFO - 127.0.0.1:51626 - "GET /ui/customization?locale=zh-TW HTTP/1.1" 200
+2026-10-05 02:23:42,873 - uvicorn.access - INFO - 127.0.0.1:62082 - "GET /auth-status HTTP/1.1" 200
+2026-10-05 02:23:42,876 - uvicorn.access - INFO - 127.0.0.1:49671 - "GET /webui/favicon.png HTTP/1.1" 200
+2026-10-05 02:23:43,234 - uvicorn.access - INFO - 127.0.0.1:49671 - "GET /webui/assets/rehype-katex-DwAOahZ3.js HTTP/1.1" 200
+2026-10-05 02:33:22,318 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-10-05 02:33:22,323 - lightrag - INFO - Ollama LLM Options: {}
+2026-10-05 02:33:22,324 - lightrag - INFO - Ollama Embedding Options: {}
+2026-10-05 02:33:22,401 - lightrag - INFO - Embedding config: binding=ollama model=nomic-embed-text:latest embedding_dim=768 max_token_size=8192
+2026-10-05 02:33:22,401 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=ollama)
+2026-10-05 02:33:22,401 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-10-05 02:33:22,401 - lightrag - INFO - Reranking is disabled
+2026-10-05 02:33:22,604 - lightrag - INFO - [] Loaded graph from C:\Users\USER\OneDrive\桌面\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml with 96 nodes, 64 edges
+2026-10-05 02:33:22,610 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-10-05 02:33:22,610 - lightrag - INFO -  - extract: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:33:22,610 - lightrag - INFO -  - keyword: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:33:22,610 - lightrag - INFO -  - query: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:33:22,611 - lightrag - INFO -  - vlm: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:33:22,611 - lightrag - INFO - Role LLM Option:
+2026-10-05 02:33:22,611 - lightrag - INFO -  - extract: Ollama {}
+2026-10-05 02:33:22,611 - lightrag - INFO -  - keyword: Ollama {}
+2026-10-05 02:33:22,611 - lightrag - INFO -  - query: Ollama {}
+2026-10-05 02:33:22,611 - lightrag - INFO -  - vlm: Ollama {}
+2026-10-05 02:33:22,670 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-10-05 02:33:22,670 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-10-05 02:33:22,704 - uvicorn.error - INFO - Started server process [25444]
+2026-10-05 02:33:22,704 - uvicorn.error - INFO - Waiting for application startup.
+2026-10-05 02:33:22,705 - lightrag - INFO - [] Process 25444 KV load full_docs with 1 records
+2026-10-05 02:33:22,705 - lightrag - INFO - [] Process 25444 KV load text_chunks with 3 records
+2026-10-05 02:33:22,706 - lightrag - INFO - [] Process 25444 KV load full_entities with 1 records
+2026-10-05 02:33:22,706 - lightrag - INFO - [] Process 25444 KV load full_relations with 1 records
+2026-10-05 02:33:22,706 - lightrag - INFO - [] Process 25444 KV load entity_chunks with 96 records
+2026-10-05 02:33:22,707 - lightrag - INFO - [] Process 25444 KV load relation_chunks with 64 records
+2026-10-05 02:33:22,707 - lightrag - INFO - [] Process 25444 KV load llm_response_cache with 14 records
+2026-10-05 02:33:22,708 - lightrag - INFO - [] Process 25444 doc status load doc_status with 1 records
+2026-10-05 02:33:22,708 - uvicorn.error - INFO - Application startup complete.
+2026-10-05 02:33:22,709 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-10-05 02:35:06,713 - uvicorn.access - INFO - 127.0.0.1:57048 - "GET /auth-status HTTP/1.1" 200
+2026-10-05 02:35:13,486 - uvicorn.access - INFO - 127.0.0.1:54860 - "POST /query/stream HTTP/1.1" 200
+2026-10-05 02:35:13,488 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-10-05 02:35:15,815 - lightrag - ERROR - Error in ollama_embed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:15,816 - lightrag - ERROR - Embedding func: Error in decorated function for task 1401369707920_228666.8670681: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:15,816 - lightrag - WARNING - Failed to batch pre-compute embeddings: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:15,816 - lightrag - INFO - Query nodes: upload, file (top_k:40, cosine:0.2)
+2026-10-05 02:35:18,136 - lightrag - ERROR - Error in ollama_embed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:18,137 - lightrag - ERROR - Embedding func: Error in decorated function for task 1401369707920_228669.1957165: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:18,137 - lightrag - ERROR - Query failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:29,501 - uvicorn.access - INFO - 127.0.0.1:49885 - "POST /query/stream HTTP/1.1" 200
+2026-10-05 02:35:31,819 - lightrag - ERROR - Error in ollama_embed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:31,819 - lightrag - ERROR - Embedding func: Error in decorated function for task 1401369708592_228682.8818727: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:31,819 - lightrag - WARNING - Failed to batch pre-compute embeddings: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:31,820 - lightrag - INFO - Query nodes: upload, file (top_k:40, cosine:0.2)
+2026-10-05 02:35:34,146 - lightrag - ERROR - Error in ollama_embed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:34,146 - lightrag - ERROR - Embedding func: Error in decorated function for task 1401369708592_228685.200238: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:35:34,147 - lightrag - ERROR - Query failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:44:05,561 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-10-05 02:44:05,567 - lightrag - INFO - Ollama LLM Options: {}
+2026-10-05 02:44:05,567 - lightrag - INFO - Ollama Embedding Options: {}
+2026-10-05 02:44:05,675 - lightrag - INFO - Embedding config: binding=ollama model=nomic-embed-text:latest embedding_dim=768 max_token_size=8192
+2026-10-05 02:44:05,675 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=ollama)
+2026-10-05 02:44:05,675 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-10-05 02:44:05,675 - lightrag - INFO - Reranking is disabled
+2026-10-05 02:44:05,975 - lightrag - INFO - [] Loaded graph from C:\Users\USER\OneDrive\桌面\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml with 96 nodes, 64 edges
+2026-10-05 02:44:05,997 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-10-05 02:44:05,997 - lightrag - INFO -  - extract: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:44:05,998 - lightrag - INFO -  - keyword: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:44:05,998 - lightrag - INFO -  - query: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:44:05,998 - lightrag - INFO -  - vlm: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:44:05,998 - lightrag - INFO - Role LLM Option:
+2026-10-05 02:44:05,998 - lightrag - INFO -  - extract: Ollama {}
+2026-10-05 02:44:05,998 - lightrag - INFO -  - keyword: Ollama {}
+2026-10-05 02:44:05,998 - lightrag - INFO -  - query: Ollama {}
+2026-10-05 02:44:05,998 - lightrag - INFO -  - vlm: Ollama {}
+2026-10-05 02:44:06,055 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-10-05 02:44:06,056 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-10-05 02:44:06,087 - uvicorn.error - INFO - Started server process [18008]
+2026-10-05 02:44:06,087 - uvicorn.error - INFO - Waiting for application startup.
+2026-10-05 02:44:06,091 - lightrag - INFO - [] Process 18008 KV load full_docs with 1 records
+2026-10-05 02:44:06,095 - lightrag - INFO - [] Process 18008 KV load text_chunks with 3 records
+2026-10-05 02:44:06,100 - lightrag - INFO - [] Process 18008 KV load full_entities with 1 records
+2026-10-05 02:44:06,105 - lightrag - INFO - [] Process 18008 KV load full_relations with 1 records
+2026-10-05 02:44:06,110 - lightrag - INFO - [] Process 18008 KV load entity_chunks with 96 records
+2026-10-05 02:44:06,116 - lightrag - INFO - [] Process 18008 KV load relation_chunks with 64 records
+2026-10-05 02:44:06,122 - lightrag - INFO - [] Process 18008 KV load llm_response_cache with 14 records
+2026-10-05 02:44:06,126 - lightrag - INFO - [] Process 18008 doc status load doc_status with 1 records
+2026-10-05 02:44:06,127 - uvicorn.error - INFO - Application startup complete.
+2026-10-05 02:44:06,127 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-10-05 02:47:22,191 - uvicorn.access - INFO - 127.0.0.1:52787 - "POST /query/stream HTTP/1.1" 200
+2026-10-05 02:47:22,192 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-10-05 02:47:24,516 - lightrag - ERROR - Error in ollama_embed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:24,519 - lightrag - ERROR - Embedding func: Error in decorated function for task 2229500055792_229395.6090225: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:24,520 - lightrag - WARNING - Failed to batch pre-compute embeddings: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:24,520 - lightrag - INFO - Query nodes: upload, file (top_k:40, cosine:0.2)
+2026-10-05 02:47:26,829 - lightrag - ERROR - Error in ollama_embed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:26,830 - lightrag - ERROR - Embedding func: Error in decorated function for task 2229500055792_229397.9366938: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:26,830 - lightrag - ERROR - Query failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:54,586 - uvicorn.access - INFO - 127.0.0.1:49492 - "POST /query/stream HTTP/1.1" 200
+2026-10-05 02:47:56,911 - lightrag - ERROR - Error in ollama_embed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:56,911 - lightrag - ERROR - Embedding func: Error in decorated function for task 2229500056016_229428.0049246: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:56,912 - lightrag - WARNING - Failed to batch pre-compute embeddings: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:56,912 - lightrag - INFO - Query nodes: upload, file (top_k:40, cosine:0.2)
+2026-10-05 02:47:59,222 - lightrag - ERROR - Error in ollama_embed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:59,223 - lightrag - ERROR - Embedding func: Error in decorated function for task 2229500056016_229430.3301593: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:47:59,223 - lightrag - ERROR - Query failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-05 02:51:07,927 - uvicorn.access - INFO - 127.0.0.1:52140 - "POST /query/stream HTTP/1.1" 200
+2026-10-05 02:51:49,851 - lightrag - INFO - Query nodes: upload, file (top_k:40, cosine:0.2)
+2026-10-05 02:51:49,860 - lightrag - INFO - Local query: 40 entites, 34 relations
+2026-10-05 02:51:49,861 - lightrag - INFO - Query edges: summarize, content (top_k:40, cosine:0.2)
+2026-10-05 02:51:49,863 - lightrag - INFO - Global query: 45 entites, 40 relations
+2026-10-05 02:51:49,864 - lightrag - INFO - Naive query: 3 chunks (chunk_top_k:20 cosine:0.2)
+2026-10-05 02:51:49,864 - lightrag - INFO - Raw search results: 65 entities, 53 relations, 3 vector chunks
+2026-10-05 02:51:49,904 - lightrag - INFO - After truncation: 65 entities, 53 relations
+2026-10-05 02:51:49,905 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-10-05 02:51:49,905 - lightrag - INFO - Find no additional relations-related chunks from 53 relations
+2026-10-05 02:51:49,906 - lightrag - INFO - Round-robin merged chunks: 6 -> 3 (deduplicated 3)
+2026-10-05 02:51:49,908 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-10-05 02:51:49,910 - lightrag - INFO - Final context: 65 entities, 53 relations, 3 chunks
+2026-10-05 02:51:49,910 - lightrag - INFO - Final chunks S+F/O: E13/1 E39/2 E14/3
+2026-10-05 02:51:49,910 - lightrag - INFO - query LLM func: 4 new workers initialized (Timeouts: Func: 240s, Worker: 480s, Health Check: 495s)
