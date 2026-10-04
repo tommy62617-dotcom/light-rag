@@ -1,11 +1,9 @@
-localhost:443 {
-    # 指向 Vue 打包出的靜態檔資料夾
-    root * ./RAG_project-main/frontend/vue/dist
+:80 {
+    root * C:\Users\USER\OneDrive\桌面\RAG_project-main\RAG_project-main\frontend\vue\dist
     file_server
     try_files {path} /index.html
 
-    # 反向代理轉發 API 請求給本機 FastAPI 後端
     handle /api/* {
-reverse_proxy /api/* 127.0.0.1:8000
+        reverse_proxy 127.0.0.1:8000
     }
 }

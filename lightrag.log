@@ -1103,3 +1103,110 @@ httpx.ReadTimeout: C[1/3]: doc-7cf6d0aa7e2caf7c9c163d95ae18bffc-chunk-001:
 2026-10-05 02:51:49,910 - lightrag - INFO - Final context: 65 entities, 53 relations, 3 chunks
 2026-10-05 02:51:49,910 - lightrag - INFO - Final chunks S+F/O: E13/1 E39/2 E14/3
 2026-10-05 02:51:49,910 - lightrag - INFO - query LLM func: 4 new workers initialized (Timeouts: Func: 240s, Worker: 480s, Health Check: 495s)
+2026-10-05 02:53:59,976 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-10-05 02:53:59,982 - lightrag - INFO - Ollama LLM Options: {}
+2026-10-05 02:53:59,982 - lightrag - INFO - Ollama Embedding Options: {}
+2026-10-05 02:54:00,073 - lightrag - INFO - Embedding config: binding=ollama model=nomic-embed-text:latest embedding_dim=768 max_token_size=8192
+2026-10-05 02:54:00,073 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=ollama)
+2026-10-05 02:54:00,073 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-10-05 02:54:00,073 - lightrag - INFO - Reranking is disabled
+2026-10-05 02:54:00,284 - lightrag - INFO - [] Loaded graph from C:\Users\USER\OneDrive\桌面\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml with 96 nodes, 64 edges
+2026-10-05 02:54:00,292 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-10-05 02:54:00,292 - lightrag - INFO -  - extract: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:54:00,292 - lightrag - INFO -  - keyword: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:54:00,292 - lightrag - INFO -  - query: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:54:00,292 - lightrag - INFO -  - vlm: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 02:54:00,292 - lightrag - INFO - Role LLM Option:
+2026-10-05 02:54:00,293 - lightrag - INFO -  - extract: Ollama {}
+2026-10-05 02:54:00,293 - lightrag - INFO -  - keyword: Ollama {}
+2026-10-05 02:54:00,293 - lightrag - INFO -  - query: Ollama {}
+2026-10-05 02:54:00,293 - lightrag - INFO -  - vlm: Ollama {}
+2026-10-05 02:54:00,353 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-10-05 02:54:00,353 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-10-05 02:54:00,375 - uvicorn.error - INFO - Started server process [15984]
+2026-10-05 02:54:00,376 - uvicorn.error - INFO - Waiting for application startup.
+2026-10-05 02:54:00,377 - lightrag - INFO - [] Process 15984 KV load full_docs with 1 records
+2026-10-05 02:54:00,377 - lightrag - INFO - [] Process 15984 KV load text_chunks with 3 records
+2026-10-05 02:54:00,378 - lightrag - INFO - [] Process 15984 KV load full_entities with 1 records
+2026-10-05 02:54:00,378 - lightrag - INFO - [] Process 15984 KV load full_relations with 1 records
+2026-10-05 02:54:00,379 - lightrag - INFO - [] Process 15984 KV load entity_chunks with 96 records
+2026-10-05 02:54:00,380 - lightrag - INFO - [] Process 15984 KV load relation_chunks with 64 records
+2026-10-05 02:54:00,381 - lightrag - INFO - [] Process 15984 KV load llm_response_cache with 14 records
+2026-10-05 02:54:00,381 - lightrag - INFO - [] Process 15984 doc status load doc_status with 1 records
+2026-10-05 02:54:00,382 - uvicorn.error - INFO - Application startup complete.
+2026-10-05 02:54:00,382 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-10-05 02:54:12,087 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-10-05 02:54:14,882 - lightrag - INFO - Query nodes: upload, content (top_k:40, cosine:0.2)
+2026-10-05 02:54:14,897 - lightrag - INFO - Local query: 40 entites, 39 relations
+2026-10-05 02:54:14,898 - lightrag - INFO - Query edges: summarize (top_k:40, cosine:0.2)
+2026-10-05 02:54:14,905 - lightrag - INFO - Global query: 46 entites, 40 relations
+2026-10-05 02:54:14,905 - lightrag - INFO - Raw search results: 71 entities, 48 relations, 0 vector chunks
+2026-10-05 02:54:14,922 - lightrag - INFO - After truncation: 71 entities, 48 relations
+2026-10-05 02:54:14,923 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-10-05 02:54:14,923 - lightrag - INFO - Find no additional relations-related chunks from 48 relations
+2026-10-05 02:54:14,923 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-10-05 02:54:14,925 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-10-05 02:54:14,927 - lightrag - INFO - Final context: 71 entities, 48 relations, 3 chunks
+2026-10-05 02:54:14,927 - lightrag - INFO - Final chunks S+F/O: E13/1 E39/2 E21/3
+2026-10-05 02:54:14,927 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-10-05 02:54:14,929 - uvicorn.access - INFO - 127.0.0.1:59765 - "POST /query HTTP/1.1" 200
+2026-10-05 02:55:04,363 - lightrag - INFO - Query nodes: upload, content (top_k:40, cosine:0.2)
+2026-10-05 02:55:04,374 - lightrag - INFO - Local query: 40 entites, 39 relations
+2026-10-05 02:55:04,375 - lightrag - INFO - Query edges: summarize (top_k:40, cosine:0.2)
+2026-10-05 02:55:04,384 - lightrag - INFO - Global query: 46 entites, 40 relations
+2026-10-05 02:55:04,385 - lightrag - INFO - Raw search results: 71 entities, 48 relations, 0 vector chunks
+2026-10-05 02:55:04,393 - lightrag - INFO - After truncation: 71 entities, 48 relations
+2026-10-05 02:55:04,395 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-10-05 02:55:04,396 - lightrag - INFO - Find no additional relations-related chunks from 48 relations
+2026-10-05 02:55:04,396 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-10-05 02:55:04,401 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-10-05 02:55:04,406 - lightrag - INFO - Final context: 71 entities, 48 relations, 3 chunks
+2026-10-05 02:55:04,407 - lightrag - INFO - Final chunks S+F/O: E13/1 E39/2 E21/3
+2026-10-05 02:55:04,407 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-10-05 02:55:04,408 - uvicorn.access - INFO - 127.0.0.1:49303 - "POST /query HTTP/1.1" 200
+2026-10-05 03:16:08,828 - lightrag - INFO - Query nodes: upload, content (top_k:40, cosine:0.2)
+2026-10-05 03:16:08,839 - lightrag - INFO - Local query: 40 entites, 39 relations
+2026-10-05 03:16:08,841 - lightrag - INFO - Query edges: summarize (top_k:40, cosine:0.2)
+2026-10-05 03:16:08,848 - lightrag - INFO - Global query: 46 entites, 40 relations
+2026-10-05 03:16:08,849 - lightrag - INFO - Raw search results: 71 entities, 48 relations, 0 vector chunks
+2026-10-05 03:16:08,854 - lightrag - INFO - After truncation: 71 entities, 48 relations
+2026-10-05 03:16:08,857 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-10-05 03:16:08,858 - lightrag - INFO - Find no additional relations-related chunks from 48 relations
+2026-10-05 03:16:08,858 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-10-05 03:16:08,863 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-10-05 03:16:08,871 - lightrag - INFO - Final context: 71 entities, 48 relations, 3 chunks
+2026-10-05 03:16:08,871 - lightrag - INFO - Final chunks S+F/O: E13/1 E39/2 E21/3
+2026-10-05 03:16:08,872 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-10-05 03:16:08,872 - uvicorn.access - INFO - 127.0.0.1:50669 - "POST /query HTTP/1.1" 200
+2026-10-05 03:25:42,051 - lightrag - INFO - UI customization: no bundle configured (UI_TEMPLATES_DIR unset)
+2026-10-05 03:25:42,059 - lightrag - INFO - Ollama LLM Options: {}
+2026-10-05 03:25:42,059 - lightrag - INFO - Ollama Embedding Options: {}
+2026-10-05 03:25:42,172 - lightrag - INFO - Embedding config: binding=ollama model=nomic-embed-text:latest embedding_dim=768 max_token_size=8192
+2026-10-05 03:25:42,172 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=ollama)
+2026-10-05 03:25:42,172 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-10-05 03:25:42,172 - lightrag - INFO - Reranking is disabled
+2026-10-05 03:25:42,393 - lightrag - INFO - [] Loaded graph from C:\Users\USER\OneDrive\桌面\RAG_project-main\rag_storage\graph_chunk_entity_relation.graphml with 96 nodes, 64 edges
+2026-10-05 03:25:42,402 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-10-05 03:25:42,403 - lightrag - INFO -  - extract: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 03:25:42,403 - lightrag - INFO -  - keyword: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 03:25:42,403 - lightrag - INFO -  - query: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 03:25:42,403 - lightrag - INFO -  - vlm: ollama/qwen2.5:7b, host=http://localhost:11434, max_async=4, timeout=240
+2026-10-05 03:25:42,404 - lightrag - INFO - Role LLM Option:
+2026-10-05 03:25:42,404 - lightrag - INFO -  - extract: Ollama {}
+2026-10-05 03:25:42,404 - lightrag - INFO -  - keyword: Ollama {}
+2026-10-05 03:25:42,404 - lightrag - INFO -  - query: Ollama {}
+2026-10-05 03:25:42,404 - lightrag - INFO -  - vlm: Ollama {}
+2026-10-05 03:25:42,470 - lightrag - INFO - Admin WebUI mounted at /webui/
+2026-10-05 03:25:42,470 - lightrag - INFO - Workspace query UI mounted at /workspace/
+2026-10-05 03:25:42,496 - uvicorn.error - INFO - Started server process [23720]
+2026-10-05 03:25:42,496 - uvicorn.error - INFO - Waiting for application startup.
+2026-10-05 03:25:42,497 - lightrag - INFO - [] Process 23720 KV load full_docs with 1 records
+2026-10-05 03:25:42,498 - lightrag - INFO - [] Process 23720 KV load text_chunks with 3 records
+2026-10-05 03:25:42,498 - lightrag - INFO - [] Process 23720 KV load full_entities with 1 records
+2026-10-05 03:25:42,499 - lightrag - INFO - [] Process 23720 KV load full_relations with 1 records
+2026-10-05 03:25:42,499 - lightrag - INFO - [] Process 23720 KV load entity_chunks with 96 records
+2026-10-05 03:25:42,500 - lightrag - INFO - [] Process 23720 KV load relation_chunks with 64 records
+2026-10-05 03:25:42,501 - lightrag - INFO - [] Process 23720 KV load llm_response_cache with 14 records
+2026-10-05 03:25:42,501 - lightrag - INFO - [] Process 23720 doc status load doc_status with 1 records
+2026-10-05 03:25:42,502 - uvicorn.error - INFO - Application startup complete.
+2026-10-05 03:25:42,502 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
